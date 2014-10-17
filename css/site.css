@@ -1,0 +1,31 @@
+
+.color-bar {line-height: 8px;}
+.green {background-color: #61c93f;}
+.blue {background-color: #2e7ac7;}
+.yellow {background-color: #fbcc33;}
+.red {background-color: #ed462f;}
+.lt-blue {background-color: #2c9cfb;}
+
+a {text-decoration: none;
+}
+
+.logo {
+	margin-top: 7px;
+	margin-bottom: 10px;
+
+}
+.header {background-color: black;}
+.container {width: 80%;margin-left:auto; margin-right: auto;}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+ul li {
+	display: inline;
+	margin-right: 2em;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+ul li:hover{
+	text-decoration: underline;
+}
