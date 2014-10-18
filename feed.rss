@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+  <title>Fremont CoderDojo</title>
+  <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
+  <link>http://www.fremontcoderdojo.com</link>
+  <description>A scrapbook of snippets to inspire wipper-snappers.</description>
+	<lastBuildDate>Fri, 17 Oct 2014 00:04:27 GMT</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+
+		<item>
+		<title>October 30 Event at Harbor Light</title>
+      <link>http://www.fremontcoderdojo.com/2014/10/15/october-30</link>
+      <comments>http://www.fremontcoderdojo.com/2014/10/15/october-30/#comments</comments>
+      <pubDate>Wed, 15 Oct 2014 07:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[CoderDojo]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Scratch]]></category>
+      <category><![CDATA[HTML5]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/15/october-30</guid>
+			<description><![CDATA[<p>Details to Be announced. Tickets will become available on Eventbright.com after October 16.</p>
+]]></description>
+		</item>
+		<item>
+		<title>October 16 Introduction to Scratch</title>
+      <link>http://www.fremontcoderdojo.com/2014/10/14/october-16</link>
+      <comments>http://www.fremontcoderdojo.com/2014/10/14/october-16/#comments</comments>
+      <pubDate>Tue, 14 Oct 2014 07:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[CoderDojo]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Scratch]]></category>
+      <category><![CDATA[HTML5]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/14/october-16</guid>
+			<description><![CDATA[<p>Our very first Fremont CoderDojo event will take place in the &#39;Activities Building&#39; at Harbor Light Church, on Thursday, October 16 at 7:00 PM. Congratulations if you had the foresight to register early and you managed to nab a free ticket before we ran out. </p>
+<p><img src="/scratch.png" alt="Scratch Screenshot" class="pure-img"></p>
+<h2 id="presentation">Presentation</h2>
+<p>There will be a short tutorial to get you started coding with Scratch. You will learn how to make an image move and make sounds and respond to the keyboard and mouse. You can check it out now if you like at: <a href="http://scratch.mit.edu/projects/29962934/#editor">http://scratch.mit.edu/projects/29962934/#editor</a> If you want to get started with the tutorial, select ‘tips’ from the menu at the top and ‘Getting Started With Scratch’ from the sidebar. After the tutorial, you will have lots of time to customize your own project. For those who may already know Scratch and are looking for a little more challenge, we will offer some HTML5 worksheet tutorials for you to sink your teeth into.</p>
+<p>For more information, about the flow of the night, or directions, checkout our <a href="/">About Page</a>.</p>
+]]></description>
+		</item>
+	</channel>
+</rss>
