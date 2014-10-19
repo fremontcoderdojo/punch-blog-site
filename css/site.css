@@ -1,4 +1,18 @@
-
+body {
+	font-family: 'Rokkitt', serif;
+}
+p, li {
+	font-size: 1.2em;
+	color: rgb(70,70,70);
+}
+h1, h2, h3, h4, h5, h6, .nav {
+	font-family: 'Montserrat', sans-serif;
+}
+h2 a {color: rgb(50,50,50);}
+h2 a:visited {color: rgb(60,60,60);}
+.nav a, .nav a:visited {
+	color:#ed462f;
+}
 .color-bar {line-height: 8px;}
 .green {background-color: #61c93f;}
 .blue {background-color: #2e7ac7;}
@@ -16,16 +30,16 @@ a {text-decoration: none;
 }
 .header {background-color: black;}
 .container {width: 80%;margin-left:auto; margin-right: auto;}
-ul{
+.nav ul{
 	list-style-type: none;
 	padding: 0;
 }
-ul li {
+.nav ul li {
 	display: inline;
-	margin-right: 2em;
-	font-size: 22px;
+	margin-right: 1em;
+	font-size: 1.1em;
 	text-transform: uppercase;
 }
-ul li:hover{
+.nav ul li:hover{
 	text-decoration: underline;
 }

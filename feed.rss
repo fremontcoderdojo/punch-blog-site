@@ -13,7 +13,7 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A scrapbook of snippets to inspire wipper-snappers.</description>
-	<lastBuildDate>Sat, 18 Oct 2014 04:38:17 GMT</lastBuildDate>
+	<lastBuildDate>Sun, 19 Oct 2014 05:36:28 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -32,12 +32,20 @@
 
       <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/15/october-30</guid>
 			<description><![CDATA[<p><a href="http://www.eventbrite.com/e/fremont-coderdojo-tickets-13794021289?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=13794021289" alt="Eventbrite - Fremont CoderDojo" /></a></p>
-<h3 id="on-the-agenda-for-october-30-">On the agenda for October 30:</h3>
-<p>  A short presentation on Scratch
-  Students will work on their own projects with their mentors&#39; assistance.
-  Student presentations.</p>
-<p>A Free Ticket is required for entry. This helps us to make sure there is enough room for everyone on a first-come first-served basis. Please use the name of the young person when registering. You will need to make separate registrations for each young person attending.</p>
-<p>Those under the age of 13 must be accompianied by a parent or guardian. Adults do not need tickets, but must be accompianied by a child.</p>
+<h4 id="on-the-agenda-for-october-30-">On the agenda for October 30:</h4>
+<ul>
+<li>A short presentation on Scratch</li>
+<li>Students will work on their own projects with their mentors&#39; assistance.</li>
+<li>Student presentations.</li>
+</ul>
+<h4 id="ticketing">Ticketing</h4>
+<ul>
+<li>A Free Ticket is required for entry. Register on EventBright.</li>
+<li>Please use the name of the young person when registering. </li>
+<li>You will need to make separate registrations for each young person attending.</li>
+<li>Those under the age of 13 must be accompianied by a parent or guardian. </li>
+<li>Adults do not need tickets, but must be accompianied by a child.</li>
+</ul>
 <p>Bring (or borrow) your own laptop. Please contact us if you are unable to acquire your own laptop.</p>
 ]]></description>
 		</item>
