@@ -1,0 +1,17 @@
+--- 
+title: October 16 Introduction to Scratch
+published: true
+tags:
+- CoderDojo 
+- Programming
+- Scratch 
+- HTML5
+---
+Our very first Fremont CoderDojo event will take place in the 'Activities Building' at Harbor Light Church, on Thursday, October 16 at 7:00 PM. Congratulations if you had the foresight to register early and you managed to nab a free ticket before we ran out. 
+
+<img src="/scratch.png" alt="Scratch Screenshot" class="pure-img">
+
+##Presentation
+There will be a short tutorial to get you started coding with Scratch. You will learn how to make an image move and make sounds and respond to the keyboard and mouse. You can check it out now if you like at: http://scratch.mit.edu/projects/29962934/#editor If you want to get started with the tutorial, select ‘tips’ from the menu at the top and ‘Getting Started With Scratch’ from the sidebar. After the tutorial, you will have lots of time to customize your own project. For those who may already know Scratch and are looking for a little more challenge, we will offer some HTML5 worksheet tutorials for you to sink your teeth into.
+
+For more information, about the flow of the night, or directions, checkout our [About Page](/).
