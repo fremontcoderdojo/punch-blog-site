@@ -1,14 +1,21 @@
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body {
 	font-family: 'Rokkitt', serif;
 	background-color: #fbfbfb;
 }
 p, li {
-	font-size: 1.2em;
+	font-size: 1em;
 	color: rgb(70,70,70);
 }
-h1, h2, h3, h4, h5, h6, .nav {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
+
 h2 a {color: rgb(50,50,50);}
 h2 a:visited {color: rgb(60,60,60);}
 .nav a, .nav a:visited {
@@ -40,6 +47,8 @@ a {text-decoration: none;
 	margin-right: 1em;
 	font-size: 1.1em;
 	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 }
 .nav ul li:hover{
 	text-decoration: underline;
