@@ -1,7 +1,14 @@
 Fremont CoderDojo is a programming club for young people between age 7 and 17. Attendees learn how to code, develop websites, apps, programs, and games in a fun, social environment.
 
 ##Ticketing
-Free tickets are available through [EventBright](http://fremontcoderdojo.eventbright.com). Each events tickets will be released about 2 weeks prior. We plan to hold most of our events on Thursdays, about twice a month.
+A Free Ticket is required for entry. Register on [EventBright](http://fremontcoderdojo.eventbright.com). Each events tickets will be released about 2 weeks prior. We plan to hold most of our events on Thursdays, about twice a month.
+Please use the name of the young person when registering.
+You will need to make separate registrations for each young person attending.
+Those under the age of 13 must be accompianied by a parent or guardian.
+Adults do not need tickets, but must be accompianied by a child.
+
+##Laptops
+Bring (or borrow) your own laptop. Please contact us if you are unable to acquire your own laptop.
 
 ##Registration and Finding Your Seat
 The event starts at 7:00PM. I recommend arriving 10 to 15 minutes early to give yourself time to locate the Activities Building, register, and get set up on wifi. Remember, you will need to bring your own (or borrowed) laptop to use. Parents will complete registration by signing in minors. They will need to sign agreement to a waiver and child protection policy. Parents/guardians of children under the age of 13 will be required to stay for the duration of the club. Parents of those 13 and over will provide emergency contact information. We have a section of tables for parents to hang out at and a separate section of tables for young people. 

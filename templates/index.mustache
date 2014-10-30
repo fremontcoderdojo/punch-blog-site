@@ -1,9 +1,10 @@
 {{> header }}
-
+	{{{comingUp}}}
+	<h1>Articles</h1>
     <div class="posts">
 
 			{{#recent_posts}}
-      <article class="hentry"> 
+      <div class="hentry"> 
         <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
 
         <div class="entry-content">
@@ -12,7 +13,7 @@
 				{{#is_teaser}}
         <div><a href="{{ permalink }}" class="more">More »</a></div>
 				{{/is_teaser}}
-      </article>
+      </div>
 			{{/recent_posts}}
 
 		</div>
