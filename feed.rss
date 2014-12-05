@@ -13,11 +13,31 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Thu, 30 Oct 2014 18:19:31 GMT</lastBuildDate>
+	<lastBuildDate>Fri, 05 Dec 2014 02:05:11 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 
+		<item>
+		<title>HTML Online Holiday Greeting Card</title>
+      <link>http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card</link>
+      <comments>http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card/#comments</comments>
+      <pubDate>Thu, 04 Dec 2014 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[CSS]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card</guid>
+			<description><![CDATA[<p><em>You will learn the basics required to create your own webpage by hand, including</em></p>
+<ol>
+<li>The Head, Body, H1, and P elements.</li>
+<li>What are opening and closing tags and why are they there?</li>
+<li>How to add a background image, and customize sizes, colors, and fonts.</li>
+</ol>
+<p>Here&#39;s the PDF: <a href="/img/html_card.pdf">Create Your Online Holiday Greeting Card Now!</a></p>
+]]></description>
+		</item>
 		<item>
 		<title>Sprite Movement and Collision Detection</title>
       <link>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</link>
