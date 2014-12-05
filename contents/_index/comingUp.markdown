@@ -10,3 +10,5 @@
 <a href="http://www.eventbrite.com/e/fremont-coderdojo-tickets-14515878383?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=14515878383" alt="Eventbrite - Fremont CoderDojo" /></a>
 
 ##[Detailed Information >>](/about)
+
+<img class="pure-img" src="/img/kids.jpg">
