@@ -5,10 +5,10 @@ tags:
 - HTML
 - CSS
 ---
-*You will learn the basics required to create your own webpage by hand, including*
+*You will learn some basic skills and create your own webpage by hand, including*
 
-1. The Head, Body, H1, and P elements.
-2. What are opening and closing tags and why are they there?
-3. How to add a background image, and customize sizes, colors, and fonts.
+1. Use tab-completion in a code editor. 
+2. Understand Elements and Tags. 
+3. Add a background image, customize sizes, and change colors, and fonts with CSS.
 
 Here's the PDF: <a href="/img/html_card.pdf">Create Your Online Holiday Greeting Card Now!</a>
