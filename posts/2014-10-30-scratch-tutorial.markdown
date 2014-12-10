@@ -1,11 +1,12 @@
 ---
-title: Sprite Movement and Collision Detection
+title: Cat and Mouse Game.
 published: true
 tags:
-- CoderDojo
 - Scratch
+- Collision Detection
+- Sprite Movement
 ---
-*You will learn the basic skills needed to create your own game! By the end you will have a cat who meows when she catches her mouse. This will probably take less than half-an-hour to complete.*
+*You will learn the basic skills needed to create your own game, including sprite movement and collision detection! By the end you will have a cat who meows when she catches her mouse. This will probably take less than half-an-hour to complete.*
 
 <img class="pure-img" src="/img/cat_moves11.png">
 
@@ -70,3 +71,5 @@ Select 'Sound'. Drag 'play sound meow2 until done' into the 'if then' block. Nex
 <img class="pure-img" src="/img/cat_moves10.png">
 
 Make sure your volume is up. Now click the flag and direct the cat to catch the mouse!
+
+<a href="/img/tutorial.pdf">Download the PDF</a>
