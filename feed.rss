@@ -13,7 +13,7 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Wed, 10 Dec 2014 00:55:56 GMT</lastBuildDate>
+	<lastBuildDate>Wed, 10 Dec 2014 00:59:42 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -39,7 +39,7 @@
 ]]></description>
 		</item>
 		<item>
-		<title>Cat and Mouse Game.</title>
+		<title>Cat and Mouse Game</title>
       <link>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</link>
       <comments>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial/#comments</comments>
       <pubDate>Thu, 30 Oct 2014 07:00:00 GMT</pubDate>
