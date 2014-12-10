@@ -13,7 +13,7 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Mon, 08 Dec 2014 18:45:22 GMT</lastBuildDate>
+	<lastBuildDate>Wed, 10 Dec 2014 00:55:56 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -39,17 +39,18 @@
 ]]></description>
 		</item>
 		<item>
-		<title>Sprite Movement and Collision Detection</title>
+		<title>Cat and Mouse Game.</title>
       <link>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</link>
       <comments>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial/#comments</comments>
       <pubDate>Thu, 30 Oct 2014 07:00:00 GMT</pubDate>
       <dc:creator>Tim Inman</dc:creator>
 
-      <category><![CDATA[CoderDojo]]></category>
       <category><![CDATA[Scratch]]></category>
+      <category><![CDATA[Collision Detection]]></category>
+      <category><![CDATA[Sprite Movement]]></category>
 
       <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</guid>
-			<description><![CDATA[<p><em>You will learn the basic skills needed to create your own game! By the end you will have a cat who meows when she catches her mouse. This will probably take less than half-an-hour to complete.</em></p>
+			<description><![CDATA[<p><em>You will learn the basic skills needed to create your own game, including sprite movement and collision detection! By the end you will have a cat who meows when she catches her mouse. This will probably take less than half-an-hour to complete.</em></p>
 <p><img class="pure-img" src="/img/cat_moves11.png"></p>
 <h3 id="start-with-a-new-sprite">Start with a new sprite</h3>
 <p>First. Create a new progect on <a href="http://scratch.mit.edu/projects/editor/">the scratch website</a>. You might want to drag out this tutoral page and tile it alongside the scratch page so you can use both without lots of switching back and forth. It might look like this:</p>
@@ -84,6 +85,7 @@
 <p>Select &#39;Sound&#39;. Drag &#39;play sound meow2 until done&#39; into the &#39;if then&#39; block. Next, drag the whole &#39;if then&#39; block into the forever loop.</p>
 <p><img class="pure-img" src="/img/cat_moves10.png"></p>
 <p>Make sure your volume is up. Now click the flag and direct the cat to catch the mouse!</p>
+<p><a href="/img/tutorial.pdf">Download the PDF</a></p>
 ]]></description>
 		</item>
 	</channel>
