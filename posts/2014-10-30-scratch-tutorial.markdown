@@ -1,5 +1,5 @@
 ---
-title: Cat and Mouse Game.
+title: Cat and Mouse Game
 published: true
 tags:
 - Scratch

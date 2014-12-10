@@ -55,6 +55,21 @@ a {text-decoration: none;
 .nav ul li:hover{
 	text-decoration: underline;
 }
+ .header-img {
+ 	background-image: url("/img/kids.jpg");
+ 	height: 360px;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+  }
+
+.tagline {
+	font-style: italic;
+	color: #333;
+	font-size: 1.2em;
+
+  }
 
 
 /* Mobile only CSS */ 
