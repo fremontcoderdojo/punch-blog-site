@@ -1,5 +1,3 @@
-Fremont CoderDojo is a programming club for young people between age 7 and 17. Attendees learn how to code, develop websites, apps, programs, and games in a fun, social environment.
-
 ##Ticketing
 A Free Ticket is required for entry. Register on [EventBright](http://fremontcoderdojo.eventbright.com). Each events tickets will be released about 2 weeks prior. We plan to hold most of our events on Thursdays, about twice a month.
 Please use the name of the young person when registering.

@@ -21,9 +21,13 @@ a {color: rgb(50,50,50);}
 a:visited {color: rgb(60,60,60);}
 a:hover {color: #ed462f;}
 
-.nav a, .nav a:visited {
+#nav {
+	background-color: #fbfbfb;
+}
+#nav a, #nav a:visited {
 	color:#ed462f;
 }
+
 .color-bar {line-height: 8px;}
 .green {background-color: #61c93f;}
 .blue {background-color: #2e7ac7;}
@@ -41,18 +45,18 @@ a {text-decoration: none;
 }
 .header {background-color: black;}
 .container {width: 55%;margin-left:auto; margin-right: auto;}
-.nav ul{
+#nav ul{
 	list-style-type: none;
 	padding: 0;
 }
-.nav ul li {
+#nav ul li {
 	display: inline;
 	margin-right: 1em;
 	font-size: 1.1em;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 }
-.nav ul li:hover{
+#nav ul li:hover{
 	text-decoration: underline;
 }
  .header-img {
@@ -75,4 +79,5 @@ a {text-decoration: none;
 /* Mobile only CSS */ 
 @media (max-width: 567px) {
 	.container {width: 92%;margin-left:auto; margin-right: auto;}
-	}
+	.header-img {height: 300px;}
+}
