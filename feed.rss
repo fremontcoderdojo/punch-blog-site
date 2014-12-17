@@ -13,11 +13,49 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Wed, 10 Dec 2014 00:59:42 GMT</lastBuildDate>
+	<lastBuildDate>Wed, 17 Dec 2014 02:49:50 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 
+		<item>
+		<title>HTML Holiday Greeting Card Part 2</title>
+      <link>http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2</link>
+      <comments>http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2/#comments</comments>
+      <pubDate>Thu, 18 Dec 2014 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[CSS]]></category>
+      <category><![CDATA[Google Fonts]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2</guid>
+			<description><![CDATA[<p><em>This is a continuation of our <a href="/img/html_card.pdf">previous tutorial</a> which showed you how to create your own Holiday Greeting Card with HTML on <a href="http://codepen.io">Codepen</a>. You will learn to:</em></p>
+<ol>
+<li>Use Google Fonts to include a custom font.</li>
+<li>Add your own images to your page, hosted on <a href="http://postimage.org">Postimage.org</a></li>
+</ol>
+<h3 id="use-google-fonts">Use Google Fonts</h3>
+<ol>
+<li>Go to <a href="http://google.com/fonts">Google.com/fonts</a></li>
+<li>Scroll or keword-search to find a desired font.</li>
+<li>In the box containing that font sample, select the quick-use arrow.
+<img class="pure-img" src="/img/arrow.png"></li>
+<li>Copy and paste the standard link code between the opening and closing head tags on your page.</li>
+<li>Copy and paste the font-family property into your site&#39;s css. <a href="http://codepen.io/thehack/pen/YPWwKP">See Example</a></li>
+</ol>
+<h3 id="add-images-with-postimg-org">Add images with PostImg.org</h3>
+<ol>
+<li>Go to <a href="http://postimg.org">Postimg.org</a>.</li>
+<li>Use the &#39;browse&#39; button to find and select the image on your computer you want to upload.</li>
+<li>Click the &#39;Upload it&#39; button.</li>
+<li>Click the &#39;copy to clipboard&#39; button, which is to the left of &#39;Direct Link&#39;.
+<img class="pure-img" src="/img/clipboard.png"></li>
+<li>Paste the image&#39;s url into a image tag in the body of your webpage. 
+Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/thehack/pen/RNRrNr">See Example</a></li>
+</ol>
+]]></description>
+		</item>
 		<item>
 		<title>HTML Online Holiday Greeting Card</title>
       <link>http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card</link>
