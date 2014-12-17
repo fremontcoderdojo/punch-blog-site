@@ -17,10 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
-a {color: rgb(50,50,50);}
-a:visited {color: rgb(60,60,60);}
-a:hover {color: #ed462f;}
+a {color: #ed462f;
+}
+a:visited {color:#ed462f;}
+a:hover {text-decoration: underline;}
+.entry-title a {
+	color: rgb(50,50,50);
 
+}
 #nav {
 	background-color: #fbfbfb;
 }

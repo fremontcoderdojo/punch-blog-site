@@ -16,7 +16,7 @@ $(document).ready( function() {
             } 
         }
         else {
-            if ($(document).scrollTop() < 500) {
+            if ($(document).scrollTop() < 520) {
                 if (!upScrollInitialted && downScrollInitiated) {
                     $('#nav').css('position', 'relative')
                     upScrollInitialted = true;
@@ -27,5 +27,4 @@ $(document).ready( function() {
         }
     lastScroll = st;    
     })
-});
-
+})
