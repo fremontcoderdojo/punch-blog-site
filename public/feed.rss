@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+  <title>Fremont CoderDojo</title>
+  <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
+  <link>http://www.fremontcoderdojo.com</link>
+  <description>A proggraming club for young people between age 7 and 17.</description>
+	<lastBuildDate>Wed, 17 Dec 2014 02:49:50 GMT</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+
+		<item>
+		<title>HTML Holiday Greeting Card Part 2</title>
+      <link>http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2</link>
+      <comments>http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2/#comments</comments>
+      <pubDate>Thu, 18 Dec 2014 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[CSS]]></category>
+      <category><![CDATA[Google Fonts]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2</guid>
+			<description><![CDATA[<p><em>This is a continuation of our <a href="/img/html_card.pdf">previous tutorial</a> which showed you how to create your own Holiday Greeting Card with HTML on <a href="http://codepen.io">Codepen</a>. You will learn to:</em></p>
+<ol>
+<li>Use Google Fonts to include a custom font.</li>
+<li>Add your own images to your page, hosted on <a href="http://postimage.org">Postimage.org</a></li>
+</ol>
+<h3 id="use-google-fonts">Use Google Fonts</h3>
+<ol>
+<li>Go to <a href="http://google.com/fonts">Google.com/fonts</a></li>
+<li>Scroll or keword-search to find a desired font.</li>
+<li>In the box containing that font sample, select the quick-use arrow.
+<img class="pure-img" src="/img/arrow.png"></li>
+<li>Copy and paste the standard link code between the opening and closing head tags on your page.</li>
+<li>Copy and paste the font-family property into your site&#39;s css. <a href="http://codepen.io/thehack/pen/YPWwKP">See Example</a></li>
+</ol>
+<h3 id="add-images-with-postimg-org">Add images with PostImg.org</h3>
+<ol>
+<li>Go to <a href="http://postimg.org">Postimg.org</a>.</li>
+<li>Use the &#39;browse&#39; button to find and select the image on your computer you want to upload.</li>
+<li>Click the &#39;Upload it&#39; button.</li>
+<li>Click the &#39;copy to clipboard&#39; button, which is to the left of &#39;Direct Link&#39;.
+<img class="pure-img" src="/img/clipboard.png"></li>
+<li>Paste the image&#39;s url into a image tag in the body of your webpage. 
+Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/thehack/pen/RNRrNr">See Example</a></li>
+</ol>
+]]></description>
+		</item>
+		<item>
+		<title>HTML Online Holiday Greeting Card</title>
+      <link>http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card</link>
+      <comments>http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card/#comments</comments>
+      <pubDate>Thu, 04 Dec 2014 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[CSS]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card</guid>
+			<description><![CDATA[<p><em>You will learn some basic skills and create your own webpage by hand, including</em></p>
+<ol>
+<li>Use tab-completion in a code editor. </li>
+<li>Understand Elements and Tags. </li>
+<li>Add a background image, customize sizes, and change colors, and fonts with CSS.</li>
+</ol>
+<p>Here&#39;s the PDF: <a href="/img/html_card.pdf">Create Your Online Holiday Greeting Card Now!</a></p>
+]]></description>
+		</item>
+		<item>
+		<title>Cat and Mouse Game</title>
+      <link>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</link>
+      <comments>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial/#comments</comments>
+      <pubDate>Thu, 30 Oct 2014 07:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[Scratch]]></category>
+      <category><![CDATA[Collision Detection]]></category>
+      <category><![CDATA[Sprite Movement]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</guid>
+			<description><![CDATA[<p><em>You will learn the basic skills needed to create your own game, including sprite movement and collision detection! By the end you will have a cat who meows when she catches her mouse. This will probably take less than half-an-hour to complete.</em></p>
+<p><img class="pure-img" src="/img/cat_moves11.png"></p>
+<h3 id="start-with-a-new-sprite">Start with a new sprite</h3>
+<p>First. Create a new progect on <a href="http://scratch.mit.edu/projects/editor/">the scratch website</a>. You might want to drag out this tutoral page and tile it alongside the scratch page so you can use both without lots of switching back and forth. It might look like this:</p>
+<p><img class="pure-img" src="/img/cat_moves12.png"></p>
+<p>Right-click or control-click &#39;Sprite1&#39; from the &#39;Sprites&#39; window. Select &#39;Delete&#39;.</p>
+<p>Click the icon for &#39;Choose new sprite from library&#39;. <img class="pure-img" src="/img/cat_moves2.png"> Choose &#39;Cat2&#39;.</p>
+<h3 id="setting-up-defaults-and-the-game-loop">Setting up defaults and the game loop</h3>
+<p>Select &#39;Events&#39; under the &#39;Scripts&#39; tab. Drag &#39;when flag clicked&#39; into the script area.</p>
+<p>Select &#39;Motion&#39;. Drag and attatch &#39;go to x:0 y:0&#39;. Make sure &#39;x&#39; is set to &#39;0&#39; and &#39;y&#39; is set to &#39;0&#39;.</p>
+<p>Select &#39;Control&#39;. Drag and attatch the &#39;forever&#39; block. This will be our game loop. We will use it later to detect collisions between sprites.</p>
+<p><img class="pure-img" src="/img/cat_moves1.png"></p>
+<h3 id="controlling-the-cat-sprite">Controlling the cat sprite</h3>
+<p>Select &#39;Events&#39;. Drag the &#39;when&#39; space key pressed&#39; onto our script window. Do this three more times. In each of those blocks, select the small black triangle and change &#39;space&#39; to &#39;up arrow&#39;, &#39;right arrow&#39;, &#39;down arrow&#39;, and &#39;left arrow&#39;, so that it matches the image below.</p>
+<p><img class="pure-img" src="/img/cat_moves3.png"></p>
+<p>Now select &#39;Motion&#39;. Drag and attatch a &#39;point in Direction&#39; block to each &#39;when <strong><em>_</em></strong> key pressed block&#39;.</p>
+<p>On each, click the small black triangle and choose the direction that matches the key being detected.</p>
+<p><img class="pure-img" src="/img/cat_moves4.png"></p>
+<p>Test it. Click the flag. <img src="/img/cat_moves5.png"> Press the arrow keys on your keyboard. The cat should face in the direction of the key being pressed.</p>
+<p>Drag and attach a &#39;move 10 steps&#39; block to each of the four keypress scripts you have been building.</p>
+<p><img class="pure-img" src="/img/cat_moves6.png"></p>
+<p>Click the flag and press your arrow keys. The cat should move across the stage!</p>
+<h3 id="add-a-mouse-for-your-cat-to-catch">Add a mouse for your cat to catch</h3>
+<p>Select the new sprite icon. <img src="/img/cat_moves2.png"></p>
+<p>Choose &#39;Mouse1&#39;. Move it away from the cat on the stage.</p>
+<p><img class="pure-img" src="/img/cat_moves7.png"></p>
+<p>Select the &#39;Cat2&#39; sprite in the &#39;Sprites&#39; window. Our script blocks controlling the cat will come back up in the script window.</p>
+<p><img class="pure-img" src="/img/cat_moves8.png"></p>
+<p>Select &#39;Control&#39;. Drag an &#39;if then&#39; block into the scripts area.</p>
+<p>Select &#39;Sensing&#39;. Drag a pointy &#39;touching?&#39; block into the pointy container on the &#39;if then&#39; block. </p>
+<p>Select the black triangle inside the &#39;touching?&#39; block. Choose &#39;Mouse1&#39;.</p>
+<p><img class="pure-img" src="/img/cat_moves9.png"></p>
+<p>Select &#39;Sound&#39;. Drag &#39;play sound meow2 until done&#39; into the &#39;if then&#39; block. Next, drag the whole &#39;if then&#39; block into the forever loop.</p>
+<p><img class="pure-img" src="/img/cat_moves10.png"></p>
+<p>Make sure your volume is up. Now click the flag and direct the cat to catch the mouse!</p>
+<p><a href="/img/tutorial.pdf">Download the PDF</a></p>
+]]></description>
+		</item>
+	</channel>
+</rss>
