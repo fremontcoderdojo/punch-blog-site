@@ -13,7 +13,11 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
+<<<<<<< HEAD
 	<lastBuildDate>Tue, 06 Jan 2015 04:18:56 GMT</lastBuildDate>
+=======
+	<lastBuildDate>Wed, 17 Dec 2014 02:49:50 GMT</lastBuildDate>
+>>>>>>> 827fa1f400dcb1dc53c44ee21d3b7aa17f70cf18
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -126,6 +130,7 @@ Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/theh
 <p><a href="/img/tutorial.pdf">Download the PDF</a></p>
 ]]></description>
 		</item>
+<<<<<<< HEAD
 		<item>
 		<title>October 30 Scratch and HTML5</title>
       <link>http://www.fremontcoderdojo.com/2014/10/15/october-30</link>
@@ -177,5 +182,7 @@ Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/theh
 <p>For more information, about the flow of the night, or directions, checkout our <a href="/">About Page</a>.</p>
 ]]></description>
 		</item>
+=======
+>>>>>>> 827fa1f400dcb1dc53c44ee21d3b7aa17f70cf18
 	</channel>
 </rss>
