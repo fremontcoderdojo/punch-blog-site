@@ -51,32 +51,38 @@
 
 <div id="main-content">
 	<article class="entry"> 
-		<h2 class="entry-title">HTML Holiday Greeting Card Part 2</h2>
+		<h2 class="entry-title">An HTML and Javascript Text Adventure Game</h2>
 		<div class="entry-content">
-			<p><em>This is a continuation of our <a href="/img/html_card.pdf">previous tutorial</a> which showed you how to create your own Holiday Greeting Card with HTML on <a href="http://codepen.io">Codepen</a>. You will learn to:</em></p>
+			<p><em>Way back in the old days, before 3D, there were lots of text adventure games. They were what we had and they were fun. In this tutorial, you will learn to make your own text adventure game with HTML, CSS and Javascript on <a href="http://codepen.io">Codepen.io</a>:</em></p>
 <ol>
-<li>Use Google Fonts to include a custom font.</li>
-<li>Add your own images to your page, hosted on <a href="http://postimage.org">Postimage.org</a></li>
+<li>You will the DRY principle: Do Not Repeat Yourself.</li>
+<li>You will learn how functions help you not to repeat yourself.</li>
+<li>You will learn how objects can store and organize lots of different data, like the data in game levels.</li>
 </ol>
-<h3 id="use-google-fonts">Use Google Fonts</h3>
-<ol>
-<li>Go to <a href="http://google.com/fonts">Google.com/fonts</a></li>
-<li>Scroll or keword-search to find a desired font.</li>
-<li>In the box containing that font sample, select the quick-use arrow.
-<img class="pure-img" src="/img/arrow.png"></li>
-<li>Copy and paste the standard link code between the opening and closing head tags on your page.</li>
-<li>Copy and paste the font-family property into your site&#39;s css. <a href="http://codepen.io/thehack/pen/YPWwKP">See Example</a></li>
-</ol>
-<h3 id="add-images-with-postimg-org">Add images with PostImg.org</h3>
-<ol>
-<li>Go to <a href="http://postimg.org">Postimg.org</a>.</li>
-<li>Use the &#39;browse&#39; button to find and select the image on your computer you want to upload.</li>
-<li>Click the &#39;Upload it&#39; button.</li>
-<li>Click the &#39;copy to clipboard&#39; button, which is to the left of &#39;Direct Link&#39;.
-<img class="pure-img" src="/img/clipboard.png"></li>
-<li>Paste the image&#39;s url into a image tag in the body of your webpage. 
-Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/thehack/pen/RNRrNr">See Example</a></li>
-</ol>
+<h3 id="first-some-html">First some HTML</h3>
+<script src="https://gist.github.com/anonymous/db710fc6988b95537707.js"></script>
+
+<p>You can easily select, copy, and paste the above html code into the html window on a <a href="http://codepen.io/pen/">new project</a> on codepen.</p>
+<h3 id="now-the-css">Now the CSS</h3>
+<script src="https://gist.github.com/anonymous/d68cd85821b4a15745e9.js"></script>
+The code above adds a bit of style to our game. It makes the pictures a consistent size, the text readable, and everything line-up right. Copy and paste it into the CSS window on your codepen project.
+
+###Finally the Javascript
+Javascript is what makes the web interactive. We use it to put away some images and add others. It updates the text when you make a decision with a button. You might remember that variable are just containers to store information. In javscript, when you are setting a variable to remember some information for you, you use the keyword 'var'. To get started, copy and paste these variables into the 'JS' window of your project:
+
+<script src="https://gist.github.com/anonymous/ee2d6961623662909039.js"></script>
+
+<p>You might have noticed that several of those match the &#39;ids&#39; of our html elements: images, text, input, and buttonBox. We are giving our script a way to remember those elements so that we can do stuff to them with functions later. You will see them again.</p>
+<p>A function is a neat little package of instructions that we know we are going to need. Functions help keep our code organized and especially help us not to have to type the same instructions over and over again. Remeber what we said about not repeating ourselves? The first function helps us to get some information from our game&#39;s player. We are asking them to name the in-game dog. Read the code, think about how it might work, and copy and paste it into your JavaScript.</p>
+<script src="https://gist.github.com/anonymous/949873aa46ebda5af767.js"></script>
+
+<p>Here are three functions which will save us lots of time by changing text, pictures, and buttons on the screen, don&#39;t forget to add it to your code:</p>
+<script src="https://gist.github.com/anonymous/df66b53e8682b24ef70b.js"></script>
+
+<p>Can you see how it is going to save us time as we advance through scenes in the game? The last bit is an object. We are using it to organize all the level or &#39;scenario&#39; data. When a function needs to show the image for scenario number 4, it looks it up in the object. Makes since, right?</p>
+<script src="https://gist.github.com/anonymous/6c10d54b959975302da0.js"></script>
+
+<p>That last little bit gets us started with level one. Have fun! Make changes!</p>
 
 		</div>
 
@@ -85,7 +91,7 @@ Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/theh
 				<span role="icon" aria-hidden="true" class="icon-tag"></span><span>Tags:</span></span>
 					<a href="/tag/html">HTML</a>&nbsp;
 					<a href="/tag/css">CSS</a>&nbsp;
-					<a href="/tag/google fonts">Google Fonts</a>&nbsp;
+					<a href="/tag/javascript">Javascript</a>&nbsp;
 			</div>
 
 			<div role="social_media">
