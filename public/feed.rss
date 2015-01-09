@@ -13,7 +13,7 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Fri, 09 Jan 2015 01:48:49 GMT</lastBuildDate>
+	<lastBuildDate>Fri, 09 Jan 2015 01:59:17 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -60,6 +60,7 @@ Javascript is what makes the web interactive. We use it to put away some images 
 <script src="https://gist.github.com/anonymous/6c10d54b959975302da0.js"></script>
 
 <p>That last little bit gets us started with level one. Have fun! Make changes!</p>
+<p>The full code is available here <a href="http://codepen.io/thehack/pen/QwdvEa">on Codepen</a>.</p>
 ]]></description>
 		</item>
 		<item>

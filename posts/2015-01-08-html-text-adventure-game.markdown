@@ -42,7 +42,7 @@ Can you see how it is going to save us time as we advance through scenes in the 
 
 That last little bit gets us started with level one. Have fun! Make changes!
 
-
+The full code is available here [on Codepen](http://codepen.io/thehack/pen/QwdvEa).
 
 
 
