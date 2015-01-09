@@ -13,7 +13,7 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Fri, 09 Jan 2015 01:59:17 GMT</lastBuildDate>
+	<lastBuildDate>Fri, 09 Jan 2015 02:48:15 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -61,6 +61,19 @@ Javascript is what makes the web interactive. We use it to put away some images 
 
 <p>That last little bit gets us started with level one. Have fun! Make changes!</p>
 <p>The full code is available here <a href="http://codepen.io/thehack/pen/QwdvEa">on Codepen</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>FeedBack Form</title>
+      <link>http://www.fremontcoderdojo.com/2015/01/08/feedback-form</link>
+      <comments>http://www.fremontcoderdojo.com/2015/01/08/feedback-form/#comments</comments>
+      <pubDate>Thu, 08 Jan 2015 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[Feedback]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2015/01/08/feedback-form</guid>
+			<description><![CDATA[<p><em>Here is the link to give feedback <a href="http://goo.gl/forms/EmcCqx0de5">Google Forms</a>:</em></p>
 ]]></description>
 		</item>
 		<item>
