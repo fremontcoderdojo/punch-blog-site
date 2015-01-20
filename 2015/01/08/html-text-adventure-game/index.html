@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+				<title>Fremont CoderDojo</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/pure.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/site.css">
+				<!-- fonts -->
+				<script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script><script>  WebFont.load({"google":{"families":["Source Code Pro:400,700","Source Sans Pro:400,700,400italic","Titillium+Web:400,600"]}}  );</script>
+				
+				<script type='text/javascript'>  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-595468-8']);  _gaq.push(['_trackPageview']);   (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+<!--<![endif]-->
+    </head>
+    <body>
+      <div class="pure-g color-bar"> 
+        <div class='pure-u-1 pure-u-sm-1-5 green'>&nbsp;</div>
+        <div class='pure-u-1 pure-u-sm-1-5 blue'>&nbsp;</div>
+        <div class='pure-u-1 pure-u-sm-1-5 yellow'>&nbsp;</div>
+        <div class='pure-u-1 pure-u-sm-1-5 red'>&nbsp;</div>
+        <div class='pure-u-1 pure-u-sm-1-5 lt-blue'>&nbsp;</div>
+      </div>
+        <div class="header">
+          <br>
+          <div class="container">
+				    <a href="/"><img class="pure-img logo" src="/orange-grey.png" alt="Fremont CoderDojo" /></a>
+          </div>
+          <br>
+        </div>
+        <div class="header-img">
+        </div>
+        <div class="container">
+        <div id="nav">
+        <ul>
+          <li><a id="home" class="link_with_icon  " href="/"><span role="icon" aria-hidden="true" class="icon-home"></span><span role="title">Home</span></a></li>
+          <li><a id="about" class="link_with_icon " href="/about"><span role="icon" aria-hidden="true" class="icon-user"></span><span role="title">About</span></a></li>
+          <li><a id="archive" class="link_with_icon " href="/archive"><span role="icon" aria-hidden="true" class="icon-book"></span><span role="title">Archive</span></a></li>
+        </ul>
+      </div>
+      <h4 class="tagline">Fremont CoderDojo is fun place to learn to code games, websites, and apps for young people between age 7 and 17.</h4>
+
+
+<div id="main-content">
+	<article class="entry"> 
+		<h2 class="entry-title">An HTML and Javascript Text Adventure Game</h2>
+		<div class="entry-content">
+			<p><em>Way back in the old days, before 3D, there were lots of text adventure games. They were what we had and they were fun. In this tutorial, you will learn to make your own text adventure game with HTML, CSS and Javascript on <a href="http://codepen.io">Codepen.io</a>:</em></p>
+<ol>
+<li>You will the DRY principle: Do Not Repeat Yourself.</li>
+<li>You will learn how functions help you not to repeat yourself.</li>
+<li>You will learn how objects can store and organize lots of different data, like the data in game levels.</li>
+</ol>
+<h3 id="first-some-html">First some HTML</h3>
+<script src="https://gist.github.com/anonymous/db710fc6988b95537707.js"></script>
+
+<p>You can easily select, copy, and paste the above html code into the html window on a <a href="http://codepen.io/pen/">new project</a> on codepen.</p>
+<h3 id="now-the-css">Now the CSS</h3>
+<script src="https://gist.github.com/anonymous/d68cd85821b4a15745e9.js"></script>
+
+<p>The code above adds a bit of style to our game. It makes the pictures a consistent size, the text readable, and everything line-up right. Copy and paste it into the CSS window on your codepen project.</p>
+<h3 id="finally-the-javascript">Finally the Javascript</h3>
+<p>Javascript is what makes the web interactive. We use it to put away some images and add others. It updates the text when you make a decision with a button. You might remember that variable are just containers to store information. In javscript, when you are setting a variable to remember some information for you, you use the keyword &#39;var&#39;. To get started, copy and paste these variables into the &#39;JS&#39; window of your project:</p>
+<script src="https://gist.github.com/anonymous/ee2d6961623662909039.js"></script>
+
+<p>You might have noticed that several of those match the &#39;ids&#39; of our html elements: images, text, input, and buttonBox. We are giving our script a way to remember those elements so that we can do stuff to them with functions later. You will see them again.</p>
+<p>A function is a neat little package of instructions that we know we are going to need. Functions help keep our code organized and especially help us not to have to type the same instructions over and over again. Remeber what we said about not repeating ourselves? The first function helps us to get some information from our game&#39;s player. We are asking them to name the in-game dog. Read the code, think about how it might work, and copy and paste it into your JavaScript.</p>
+<ul>
+<li><span style="color:red;">EDIT: Previously, this next code block was a seven-lined function called submitDogName. It worked in Google&#39;s Chrome browser, but not in Firefox. There is a difference in how the browsers recognize which keys are being pressed on the keyboard. In this newer, better function, we are using the &quot;||&quot; operator which means &#39;or&#39;, so we are saying, &#39;If someone presses a key and it looks like this, or like this, do what we want. Web programmers end up doing lots of work-arounds like this to keep different browsers happy. If you are coming back after the fact, you can delete those seven lines and replace them with this bit of code:</li>
+</ul>
+<script src="https://gist.github.com/anonymous/a107e49622f53e7bf220.js"></script>
+
+<p>If you really want to clean up your code, you could also go back to your HTML and delete the part of the input element which says &#39;onkeypress=&quot;submitDogName(this)&quot;&#39;, but it should work either way.</p>
+<p>Next up are three functions which will save us lots of time by changing text, pictures, and buttons on the screen, don&#39;t forget to add it to your code:</p>
+<script src="https://gist.github.com/anonymous/df66b53e8682b24ef70b.js"></script>
+
+<p>Can you see how it is going to save us time as we advance through scenes in the game? The last bit is an object. We are using it to organize all the level or &#39;scenario&#39; data. When a function needs to show the image for scenario number 4, it looks it up in the object. Makes since, right? Read it over a few times and see if you can figure it out.</p>
+<script src="https://gist.github.com/anonymous/6c10d54b959975302da0.js"></script>
+
+<p>Objects like this one are full of keys and values. The program then can look up the key and spit out the value. Do you see how that object (which I named scenario) is organized by number names? The number names are keys and those key&#39;s values are objects in their own right, with keys of &#39;image&#39;, &#39;text&#39;, and &#39;button&#39;. So it&#39;s actually an object objects. &#39;One&#39; contains the text, image location, and buttons for scene one, and so on (except there were no buttons for level one). Whew! lots to think about.</p>
+<p>If I wanted to tell the game which text to display on level three, all I would have to do is type &#39;scenario.three.text&#39;, you can actually try this if you know how to open the console of your web browser.</p>
+<p>It has probably already occured to you that you could change my &#39;scenario&#39; and add your own new story - I hope you do! The trickiest part is the buttons. The buttons are lists of lists. Programmers call lists arrays, but they are just a group of items really: numbers, text, variables, whatever. Lists in javscript look like this: [&#39;coconut&#39;, &#39;barbeque&#39;, 7]. Square brackets go on the outside and each item is separated by a comma. Lists can have lists inside them. Each of our &#39;buttons:&#39; keys has a list of lists for values.I have set it up like this:</p>
+<pre><code>[[&quot;words on button one&quot;, &quot;scene this button will take you to&quot;],[&quot;button two&quot;, &quot;scene this button will take you to&quot;]]
+</code></pre><p>You can add as many buttons as you like, but you need to plan out what scene each button will take you to in advance - I made a chart on paper, numbered all of my scenes, listed the choices on thoses scenes and drew lines to the scene the choies would take me. If you do that, you will know what to put for the second part of each button, for example you might come up with a scene five which looks like:</p>
+<pre><code>var scenario = 
+ one: ...
+
+ five: {
+     image: &quot;location of an image of ice cream&quot;,
+     text: &quot;A funny joke about melting ice cream&quot;,
+     buttons: [[&quot;lick the ice cream&quot;, &quot;advanceTo(scenario.six)&quot;], [&quot;bite the ice cream&quot;, &quot;advanceTo(scenario.seven)&quot;],[&quot;put it in your pocket&quot;, &quot;advanceTo(scenario.nineteen)&quot;]]
+
+ six: ...
+ }
+</code></pre><p>Have fun! Make changes!</p>
+<p>The full code is available here <a href="http://codepen.io/thehack/pen/QwdvEa">on Codepen</a>.</p>
+
+		</div>
+
+		<aside role="meta">
+			<div role="tags">
+				<span role="icon" aria-hidden="true" class="icon-tag"></span><span>Tags:</span></span>
+					<a href="/tag/html">HTML</a>&nbsp;
+					<a href="/tag/css">CSS</a>&nbsp;
+					<a href="/tag/javascript">Javascript</a>&nbsp;
+			</div>
+
+			<div role="social_media">
+				<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-size="medium" data-via="fremontcoders">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+		</aside>
+
+		<div id="disqus_block">
+			<div id="disqus_thread"></div><script type="text/javascript">  var disqus_shortname = 'fremontcoderdojo';  (function() {   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;   dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script>
+		</div>
+
+	</article>
+</div>
+
+    
+				<br>
+				<div class="footer">
+					©2015 Fremont CoderDojo
+					<br>
+					<br>
+				</div>
+			</div><!-- closing out the container -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+	<script src="/js/vendor/prism.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script> 
+    </body>
+</html>
