@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+  <title>Fremont CoderDojo</title>
+  <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
+  <link>http://www.fremontcoderdojo.com</link>
+  <description>A proggraming club for young people between age 7 and 17.</description>
+	<lastBuildDate>Fri, 09 Jan 2015 21:50:34 GMT</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+
+		<item>
+		<title>An HTML and Javascript Text Adventure Game</title>
+      <link>http://www.fremontcoderdojo.com/2015/01/08/html-text-adventure-game</link>
+      <comments>http://www.fremontcoderdojo.com/2015/01/08/html-text-adventure-game/#comments</comments>
+      <pubDate>Thu, 08 Jan 2015 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[CSS]]></category>
+      <category><![CDATA[Javascript]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2015/01/08/html-text-adventure-game</guid>
+			<description><![CDATA[<p><em>Way back in the old days, before 3D, there were lots of text adventure games. They were what we had and they were fun. In this tutorial, you will learn to make your own text adventure game with HTML, CSS and Javascript on <a href="http://codepen.io">Codepen.io</a>:</em></p>
+<ol>
+<li>You will the DRY principle: Do Not Repeat Yourself.</li>
+<li>You will learn how functions help you not to repeat yourself.</li>
+<li>You will learn how objects can store and organize lots of different data, like the data in game levels.</li>
+</ol>
+<h3 id="first-some-html">First some HTML</h3>
+<script src="https://gist.github.com/anonymous/db710fc6988b95537707.js"></script>
+
+<p>You can easily select, copy, and paste the above html code into the html window on a <a href="http://codepen.io/pen/">new project</a> on codepen.</p>
+<h3 id="now-the-css">Now the CSS</h3>
+<script src="https://gist.github.com/anonymous/d68cd85821b4a15745e9.js"></script>
+
+<p>The code above adds a bit of style to our game. It makes the pictures a consistent size, the text readable, and everything line-up right. Copy and paste it into the CSS window on your codepen project.</p>
+<h3 id="finally-the-javascript">Finally the Javascript</h3>
+<p>Javascript is what makes the web interactive. We use it to put away some images and add others. It updates the text when you make a decision with a button. You might remember that variable are just containers to store information. In javscript, when you are setting a variable to remember some information for you, you use the keyword &#39;var&#39;. To get started, copy and paste these variables into the &#39;JS&#39; window of your project:</p>
+<script src="https://gist.github.com/anonymous/ee2d6961623662909039.js"></script>
+
+<p>You might have noticed that several of those match the &#39;ids&#39; of our html elements: images, text, input, and buttonBox. We are giving our script a way to remember those elements so that we can do stuff to them with functions later. You will see them again.</p>
+<p>A function is a neat little package of instructions that we know we are going to need. Functions help keep our code organized and especially help us not to have to type the same instructions over and over again. Remeber what we said about not repeating ourselves? The first function helps us to get some information from our game&#39;s player. We are asking them to name the in-game dog. Read the code, think about how it might work, and copy and paste it into your JavaScript.</p>
+<ul>
+<li><span style="color:red;">EDIT: Previously, this next code block was a seven-lined function called submitDogName. It worked in Google&#39;s Chrome browser, but not in Firefox. There is a difference in how the browsers recognize which keys are being pressed on the keyboard. In this newer, better function, we are using the &quot;||&quot; operator which means &#39;or&#39;, so we are saying, &#39;If someone presses a key and it looks like this, or like this, do what we want. Web programmers end up doing lots of work-arounds like this to keep different browsers happy. If you are coming back after the fact, you can delete those seven lines and replace them with this bit of code:</li>
+</ul>
+<script src="https://gist.github.com/anonymous/a107e49622f53e7bf220.js"></script>
+
+<p>If you really want to clean up your code, you could also go back to your HTML and delete the part of the input element which says &#39;onkeypress=&quot;submitDogName(this)&quot;&#39;, but it should work either way.</p>
+<p>Next up are three functions which will save us lots of time by changing text, pictures, and buttons on the screen, don&#39;t forget to add it to your code:</p>
+<script src="https://gist.github.com/anonymous/df66b53e8682b24ef70b.js"></script>
+
+<p>Can you see how it is going to save us time as we advance through scenes in the game? The last bit is an object. We are using it to organize all the level or &#39;scenario&#39; data. When a function needs to show the image for scenario number 4, it looks it up in the object. Makes since, right? Read it over a few times and see if you can figure it out.</p>
+<script src="https://gist.github.com/anonymous/6c10d54b959975302da0.js"></script>
+
+<p>Objects like this one are full of keys and values. The program then can look up the key and spit out the value. Do you see how that object (which I named scenario) is organized by number names? The number names are keys and those key&#39;s values are objects in their own right, with keys of &#39;image&#39;, &#39;text&#39;, and &#39;button&#39;. So it&#39;s actually an object objects. &#39;One&#39; contains the text, image location, and buttons for scene one, and so on (except there were no buttons for level one). Whew! lots to think about.</p>
+<p>If I wanted to tell the game which text to display on level three, all I would have to do is type &#39;scenario.three.text&#39;, you can actually try this if you know how to open the console of your web browser.</p>
+<p>It has probably already occured to you that you could change my &#39;scenario&#39; and add your own new story - I hope you do! The trickiest part is the buttons. The buttons are lists of lists. Programmers call lists arrays, but they are just a group of items really: numbers, text, variables, whatever. Lists in javscript look like this: [&#39;coconut&#39;, &#39;barbeque&#39;, 7]. Square brackets go on the outside and each item is separated by a comma. Lists can have lists inside them. Each of our &#39;buttons:&#39; keys has a list of lists for values.I have set it up like this:</p>
+<pre><code>[[&quot;words on button one&quot;, &quot;scene this button will take you to&quot;],[&quot;button two&quot;, &quot;scene this button will take you to&quot;]]
+</code></pre><p>You can add as many buttons as you like, but you need to plan out what scene each button will take you to in advance - I made a chart on paper, numbered all of my scenes, listed the choices on thoses scenes and drew lines to the scene the choies would take me. If you do that, you will know what to put for the second part of each button, for example you might come up with a scene five which looks like:</p>
+<pre><code>var scenario = 
+ one: ...
+
+ five: {
+     image: &quot;location of an image of ice cream&quot;,
+     text: &quot;A funny joke about melting ice cream&quot;,
+     buttons: [[&quot;lick the ice cream&quot;, &quot;advanceTo(scenario.six)&quot;], [&quot;bite the ice cream&quot;, &quot;advanceTo(scenario.seven)&quot;],[&quot;put it in your pocket&quot;, &quot;advanceTo(scenario.nineteen)&quot;]]
+
+ six: ...
+ }
+</code></pre><p>Have fun! Make changes!</p>
+<p>The full code is available here <a href="http://codepen.io/thehack/pen/QwdvEa">on Codepen</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>FeedBack Form</title>
+      <link>http://www.fremontcoderdojo.com/2015/01/08/feedback-form</link>
+      <comments>http://www.fremontcoderdojo.com/2015/01/08/feedback-form/#comments</comments>
+      <pubDate>Thu, 08 Jan 2015 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[Feedback]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2015/01/08/feedback-form</guid>
+			<description><![CDATA[<p><em>Here is the link to give feedback <a href="http://goo.gl/forms/EmcCqx0de5">Google Forms</a>:</em></p>
+]]></description>
+		</item>
+		<item>
+		<title>HTML Holiday Greeting Card Part 2</title>
+      <link>http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2</link>
+      <comments>http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2/#comments</comments>
+      <pubDate>Thu, 18 Dec 2014 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[CSS]]></category>
+      <category><![CDATA[Google Fonts]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/12/18/html-holiday-card-part-2</guid>
+			<description><![CDATA[<p><em>This is a continuation of our <a href="/img/html_card.pdf">previous tutorial</a> which showed you how to create your own Holiday Greeting Card with HTML on <a href="http://codepen.io">Codepen</a>. You will learn to:</em></p>
+<ol>
+<li>Use Google Fonts to include a custom font.</li>
+<li>Add your own images to your page, hosted on <a href="http://postimage.org">Postimage.org</a></li>
+</ol>
+<h3 id="use-google-fonts">Use Google Fonts</h3>
+<ol>
+<li>Go to <a href="http://google.com/fonts">Google.com/fonts</a></li>
+<li>Scroll or keword-search to find a desired font.</li>
+<li>In the box containing that font sample, select the quick-use arrow.
+<img class="pure-img" src="/img/arrow.png"></li>
+<li>Copy and paste the standard link code between the opening and closing head tags on your page.</li>
+<li>Copy and paste the font-family property into your site&#39;s css. <a href="http://codepen.io/thehack/pen/YPWwKP">See Example</a></li>
+</ol>
+<h3 id="add-images-with-postimg-org">Add images with PostImg.org</h3>
+<ol>
+<li>Go to <a href="http://postimg.org">Postimg.org</a>.</li>
+<li>Use the &#39;browse&#39; button to find and select the image on your computer you want to upload.</li>
+<li>Click the &#39;Upload it&#39; button.</li>
+<li>Click the &#39;copy to clipboard&#39; button, which is to the left of &#39;Direct Link&#39;.
+<img class="pure-img" src="/img/clipboard.png"></li>
+<li>Paste the image&#39;s url into a image tag in the body of your webpage. 
+Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/thehack/pen/RNRrNr">See Example</a></li>
+</ol>
+]]></description>
+		</item>
+		<item>
+		<title>HTML Online Holiday Greeting Card</title>
+      <link>http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card</link>
+      <comments>http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card/#comments</comments>
+      <pubDate>Thu, 04 Dec 2014 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[CSS]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/12/04/html-holiday-card</guid>
+			<description><![CDATA[<p><em>You will learn some basic skills and create your own webpage by hand, including</em></p>
+<ol>
+<li>Use tab-completion in a code editor. </li>
+<li>Understand Elements and Tags. </li>
+<li>Add a background image, customize sizes, and change colors, and fonts with CSS.</li>
+</ol>
+<p>Here&#39;s the PDF: <a href="/img/html_card.pdf">Create Your Online Holiday Greeting Card Now!</a></p>
+]]></description>
+		</item>
+		<item>
+		<title>Cat and Mouse Game</title>
+      <link>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</link>
+      <comments>http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial/#comments</comments>
+      <pubDate>Thu, 30 Oct 2014 07:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[Scratch]]></category>
+      <category><![CDATA[Collision Detection]]></category>
+      <category><![CDATA[Sprite Movement]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/30/scratch-tutorial</guid>
+			<description><![CDATA[<p><em>You will learn the basic skills needed to create your own game, including sprite movement and collision detection! By the end you will have a cat who meows when she catches her mouse. This will probably take less than half-an-hour to complete.</em></p>
+<p><img class="pure-img" src="/img/cat_moves11.png"></p>
+<h3 id="start-with-a-new-sprite">Start with a new sprite</h3>
+<p>First. Create a new progect on <a href="http://scratch.mit.edu/projects/editor/">the scratch website</a>. You might want to drag out this tutoral page and tile it alongside the scratch page so you can use both without lots of switching back and forth. It might look like this:</p>
+<p><img class="pure-img" src="/img/cat_moves12.png"></p>
+<p>Right-click or control-click &#39;Sprite1&#39; from the &#39;Sprites&#39; window. Select &#39;Delete&#39;.</p>
+<p>Click the icon for &#39;Choose new sprite from library&#39;. <img class="pure-img" src="/img/cat_moves2.png"> Choose &#39;Cat2&#39;.</p>
+<h3 id="setting-up-defaults-and-the-game-loop">Setting up defaults and the game loop</h3>
+<p>Select &#39;Events&#39; under the &#39;Scripts&#39; tab. Drag &#39;when flag clicked&#39; into the script area.</p>
+<p>Select &#39;Motion&#39;. Drag and attatch &#39;go to x:0 y:0&#39;. Make sure &#39;x&#39; is set to &#39;0&#39; and &#39;y&#39; is set to &#39;0&#39;.</p>
+<p>Select &#39;Control&#39;. Drag and attatch the &#39;forever&#39; block. This will be our game loop. We will use it later to detect collisions between sprites.</p>
+<p><img class="pure-img" src="/img/cat_moves1.png"></p>
+<h3 id="controlling-the-cat-sprite">Controlling the cat sprite</h3>
+<p>Select &#39;Events&#39;. Drag the &#39;when&#39; space key pressed&#39; onto our script window. Do this three more times. In each of those blocks, select the small black triangle and change &#39;space&#39; to &#39;up arrow&#39;, &#39;right arrow&#39;, &#39;down arrow&#39;, and &#39;left arrow&#39;, so that it matches the image below.</p>
+<p><img class="pure-img" src="/img/cat_moves3.png"></p>
+<p>Now select &#39;Motion&#39;. Drag and attatch a &#39;point in Direction&#39; block to each &#39;when <strong><em>_</em></strong> key pressed block&#39;.</p>
+<p>On each, click the small black triangle and choose the direction that matches the key being detected.</p>
+<p><img class="pure-img" src="/img/cat_moves4.png"></p>
+<p>Test it. Click the flag. <img src="/img/cat_moves5.png"> Press the arrow keys on your keyboard. The cat should face in the direction of the key being pressed.</p>
+<p>Drag and attach a &#39;move 10 steps&#39; block to each of the four keypress scripts you have been building.</p>
+<p><img class="pure-img" src="/img/cat_moves6.png"></p>
+<p>Click the flag and press your arrow keys. The cat should move across the stage!</p>
+<h3 id="add-a-mouse-for-your-cat-to-catch">Add a mouse for your cat to catch</h3>
+<p>Select the new sprite icon. <img src="/img/cat_moves2.png"></p>
+<p>Choose &#39;Mouse1&#39;. Move it away from the cat on the stage.</p>
+<p><img class="pure-img" src="/img/cat_moves7.png"></p>
+<p>Select the &#39;Cat2&#39; sprite in the &#39;Sprites&#39; window. Our script blocks controlling the cat will come back up in the script window.</p>
+<p><img class="pure-img" src="/img/cat_moves8.png"></p>
+<p>Select &#39;Control&#39;. Drag an &#39;if then&#39; block into the scripts area.</p>
+<p>Select &#39;Sensing&#39;. Drag a pointy &#39;touching?&#39; block into the pointy container on the &#39;if then&#39; block. </p>
+<p>Select the black triangle inside the &#39;touching?&#39; block. Choose &#39;Mouse1&#39;.</p>
+<p><img class="pure-img" src="/img/cat_moves9.png"></p>
+<p>Select &#39;Sound&#39;. Drag &#39;play sound meow2 until done&#39; into the &#39;if then&#39; block. Next, drag the whole &#39;if then&#39; block into the forever loop.</p>
+<p><img class="pure-img" src="/img/cat_moves10.png"></p>
+<p>Make sure your volume is up. Now click the flag and direct the cat to catch the mouse!</p>
+<p><a href="/img/tutorial.pdf">Download the PDF</a></p>
+]]></description>
+		</item>
+		<item>
+		<title>October 30 Scratch and HTML5</title>
+      <link>http://www.fremontcoderdojo.com/2014/10/15/october-30</link>
+      <comments>http://www.fremontcoderdojo.com/2014/10/15/october-30/#comments</comments>
+      <pubDate>Wed, 15 Oct 2014 07:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[CoderDojo]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Scratch]]></category>
+      <category><![CDATA[HTML5]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/15/october-30</guid>
+			<description><![CDATA[<p><a href="http://www.eventbrite.com/e/fremont-coderdojo-tickets-13794021289?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=13794021289" alt="Eventbrite - Fremont CoderDojo" /></a></p>
+<h4 id="on-the-agenda-for-october-30-">On the agenda for October 30:</h4>
+<ul>
+<li>A short presentation on Scratch</li>
+<li>Students will work on their own projects with their mentors&#39; assistance.</li>
+<li>Student presentations.</li>
+</ul>
+<h4 id="ticketing">Ticketing</h4>
+<ul>
+<li>A Free Ticket is required for entry. Register on EventBright.</li>
+<li>Please use the name of the young person when registering. </li>
+<li>You will need to make separate registrations for each young person attending.</li>
+<li>Those under the age of 13 must be accompianied by a parent or guardian. </li>
+<li>Adults do not need tickets, but must be accompianied by a child.</li>
+</ul>
+<p>Bring (or borrow) your own laptop. Please contact us if you are unable to acquire your own laptop.</p>
+]]></description>
+		</item>
+		<item>
+		<title>October 16 Introduction to Scratch</title>
+      <link>http://www.fremontcoderdojo.com/2014/10/14/october-16</link>
+      <comments>http://www.fremontcoderdojo.com/2014/10/14/october-16/#comments</comments>
+      <pubDate>Tue, 14 Oct 2014 07:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[CoderDojo]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Scratch]]></category>
+      <category><![CDATA[HTML5]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2014/10/14/october-16</guid>
+			<description><![CDATA[<p>Our very first Fremont CoderDojo event will take place in the &#39;Activities Building&#39; at Harbor Light Church, on Thursday, October 16 at 7:00 PM. Congratulations if you had the foresight to register early and you managed to nab a free ticket before we ran out. </p>
+<p><img src="/scratch.png" alt="Scratch Screenshot" class="pure-img"></p>
+<h2 id="presentation">Presentation</h2>
+<p>There will be a short tutorial to get you started coding with Scratch. You will learn how to make an image move and make sounds and respond to the keyboard and mouse. You can check it out now if you like at: <a href="http://scratch.mit.edu/projects/29962934/#editor">http://scratch.mit.edu/projects/29962934/#editor</a> If you want to get started with the tutorial, select ‘tips’ from the menu at the top and ‘Getting Started With Scratch’ from the sidebar. After the tutorial, you will have lots of time to customize your own project. For those who may already know Scratch and are looking for a little more challenge, we will offer some HTML5 worksheet tutorials for you to sink your teeth into.</p>
+<p>For more information, about the flow of the night, or directions, checkout our <a href="/">About Page</a>.</p>
+]]></description>
+		</item>
+	</channel>
+</rss>
