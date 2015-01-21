@@ -5,8 +5,7 @@ We will be continuing in our discovery of some basic programming concepts in Scr
 
 Preview of the of the work we will we doing on January 22:
 
-
-<p data-height="268" data-theme-id="0" data-slug-hash="yGbFt" data-default-tab="result" data-user="liabru" class='codepen'>See the Pen <a href='http://codepen.io/liabru/pen/yGbFt/'>Slingshot Game</a> by liabru (<a href='http://codepen.io/liabru'>@liabru</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="800" data-theme-id="0" data-slug-hash="yGbFt" data-default-tab="result" data-user="liabru" class='codepen'>See the Pen <a href='http://codepen.io/liabru/pen/yGbFt/'>Slingshot Game</a> by liabru (<a href='http://codepen.io/liabru'>@liabru</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ###[Detailed Information >>](/about)
