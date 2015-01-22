@@ -23,6 +23,6 @@ In your console, clone your fork onto your local machine.
 #####4. Push changes to your fork
     
     git push origin master
-####On github, use the pull request feature to compare your fork with the official repo and make a pull request.
+#####5. On github, use the pull request feature to compare your fork with the official repo and make a pull request.
 
 
