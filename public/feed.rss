@@ -13,7 +13,7 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Thu, 22 Jan 2015 21:47:11 GMT</lastBuildDate>
+	<lastBuildDate>Thu, 22 Jan 2015 22:01:34 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -59,6 +59,21 @@
 <h3 id="skills">Skills</h3>
 <p>Do you need to brush up on your skills? Check out these <a href="http://cdn.scratch.mit.edu/scratchr2/static/__7aa8454d4311dd1140d332d797f6ca21__//pdfs/help/Scratch2Cards.pdf">scratch cards</a> for some basic skills.</p>
 ]]></description>
+		</item>
+		<item>
+		<title>Matter.js - A Javascript Physics Library</title>
+      <link>http://www.fremontcoderdojo.com/2015/01/21/matterjs-javascript-physics-library</link>
+      <comments>http://www.fremontcoderdojo.com/2015/01/21/matterjs-javascript-physics-library/#comments</comments>
+      <pubDate>Wed, 21 Jan 2015 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[javascript]]></category>
+      <category><![CDATA[physics]]></category>
+      <category><![CDATA[games]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2015/01/21/matterjs-javascript-physics-library</guid>
+			<description><![CDATA[<p><p data-height="800" data-theme-id="0" data-slug-hash="yGbFt" data-default-tab="result" data-user="liabru" class='codepen'>See the Pen <a href='http://codepen.io/liabru/pen/yGbFt/'>Slingshot Game</a> by liabru (<a href='http://codepen.io/liabru'>@liabru</a>) on <a href='http://codepen.io'>CodePen</a>.</p></p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>]]></description>
 		</item>
 		<item>
 		<title>An HTML and Javascript Text Adventure Game</title>
