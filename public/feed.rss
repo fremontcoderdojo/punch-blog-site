@@ -13,11 +13,53 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Wed, 21 Jan 2015 20:23:35 GMT</lastBuildDate>
+	<lastBuildDate>Thu, 22 Jan 2015 21:47:11 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 
+		<item>
+		<title>Group Challenge - Make a game in Scratch</title>
+      <link>http://www.fremontcoderdojo.com/2015/01/22/scratch-game-ideas</link>
+      <comments>http://www.fremontcoderdojo.com/2015/01/22/scratch-game-ideas/#comments</comments>
+      <pubDate>Thu, 22 Jan 2015 08:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[Scratch Game Challenge]]></category>
+      <category><![CDATA[games]]></category>
+      <category><![CDATA[scratch]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2015/01/22/scratch-game-ideas</guid>
+			<description><![CDATA[<p><em>In the past months, we have learned some important <a href="http://cdn.scratch.mit.edu/scratchr2/static/__7aa8454d4311dd1140d332d797f6ca21__//pdfs/help/Scratch2Cards.pdf">skills</a> in Scratch, covering topics like: loops, conditions, keeping score, <a href="/2014/10/30/scratch-tutorial/">responding to the keyboard or mouse</a>, and moving sprites across the screen. Let&#39;s put those skills to use in a cooperative challenge!</em></p>
+<h3 id="timeline-">Timeline:</h3>
+<ul>
+<li>We will work on our games on January 22 and February 5. They can also be worked on in-between our meetings.</li>
+<li>Games will be submitted by the end of our meeting on Feburay 5. They will be hosted on our website. </li>
+<li>On February 19 winners will be awarded certificates for different categories, including one winner chosen by you!</li>
+</ul>
+<h3 id="guidlines-">Guidlines:</h3>
+<ul>
+<li>Fun games are challenging, but not impossible to win.</li>
+<li>Your game should have a beginning and an end.</li>
+<li>Your game should keep score or track achievment somehow.</li>
+<li>Your game can be inspired by another project, but should have original work.</li>
+<li>If you copy ideas for a script from another project, make sure you can explain how it works. </li>
+<li>Your game should be a co-operative effort of more than one person.</li>
+</ul>
+<h3 id="ideas-for-inspiration-">Ideas for Inspiration:</h3>
+<ul>
+<li><a href="http://scratch.mit.edu/projects/10116127/">Falling objects</a></li>
+<li><a href="http://scratch.mit.edu/projects/28557874/">Avoid something</a></li>
+<li><a href="http://scratch.mit.edu/projects/11604118/">Remember Sounds</a></li>
+<li><a href="http://scratch.mit.edu/projects/2311357/">Guessing Game</a></li>
+<li><a href="http://scratch.mit.edu/projects/2578707/">Memory</a></li>
+<li><a href="http://scratch.mit.edu/projects/2865532/">Maze</a></li>
+<li><a href="http://scratch.mit.edu/projects/44493892/">Pong</a></li>
+</ul>
+<h3 id="skills">Skills</h3>
+<p>Do you need to brush up on your skills? Check out these <a href="http://cdn.scratch.mit.edu/scratchr2/static/__7aa8454d4311dd1140d332d797f6ca21__//pdfs/help/Scratch2Cards.pdf">scratch cards</a> for some basic skills.</p>
+]]></description>
+		</item>
 		<item>
 		<title>An HTML and Javascript Text Adventure Game</title>
       <link>http://www.fremontcoderdojo.com/2015/01/08/html-text-adventure-game</link>
