@@ -3,9 +3,8 @@
 #####2. Install Node.js and npm
 #####3. Install the punch package for node.
     npm install -g punch
-
-Copy the address of your forked repository to clipboard from it's github page.
-In your console, clone your fork onto your local machine.
+#####4. Copy the address of your forked repository to clipboard from it's github page.
+#####5. In your console, clone your fork onto your local machine.
     git clone paste/address/of/your/fork/here
     cd punch-blog-site
     npm install
