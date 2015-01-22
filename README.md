@@ -1,6 +1,7 @@
 ###One Time Setup:
-Fork this repository.
-Make sure node.js and npm are installed.
+#####1. Fork this repository.
+#####2. Install Node.js and npm
+#####3. Install the punch package for node.
     npm install -g punch
 
 Copy the address of your forked repository to clipboard from it's github page.
