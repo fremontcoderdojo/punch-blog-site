@@ -1,8 +1,13 @@
 #On the agenda for February 5:
-- A quick tutorial in Scratch.
-- Printed Javascript tutorials available.
-- Continuing our first group challenge: [Make a Game with Scratch](/2015/01/22/scratch-game-ideas/)
+- Scratch Game-Building Challenge - Voting and Awards
+- HTML5 Tutorial
+- Scratch Tutorials Available
+- Student Presentations
 
-<a href="http://www.eventbrite.com/e/fremont-coderdojo-tickets-15588690192?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=15588690192" alt="Eventbrite - Fremont CoderDojo" /></a>
+After several weeks building our games and projects, our Scratch Game-Building Challenge draws to completion this Thursday. 
+
+[Please check out](http://scratch.mit.edu/studios/974808/projects/) the submissions and be ready to vote for your favorites. If you haven't finished or submitted your project, you still have a few days. Make sure to 'share' your project on scratch and email fremont.us@coderdojo.com a link before Thursday.
+
+<a href="http://www.eventbrite.com/e/fremont-coderdojo-tickets-15938920741?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=15938920741" alt="Eventbrite - Fremont CoderDojo" /></a>
 
 ###[Detailed Information >>](/about)
