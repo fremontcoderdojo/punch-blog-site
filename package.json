@@ -1,4 +1,8 @@
 { "name" : "punch-blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laktek/punch.git"
+  },
 	"version" : "1.0.0",
 	"dependencies" : {
 	 	"punch": ">= 0.5.35",
