@@ -1,8 +1,5 @@
-#On the agenda for March 19:
-- [Racing Game in Scratch:](/img/racing.pdf) [Remix this project for Racing Sprites](http://scratch.mit.edu/projects/53409404/#editor),
-- [Frogger in Scratch:](/img/frogger.pdf) [Remix this project for Frogger Sprites](http://scratch.mit.edu/projects/53408648/#editor)
-- Beginning Javascript: [Variables and Functions](http://codepen.io/fremontCoderDojo/pen/MYzvEz/left?editors=001)
-
-<a href="http://www.eventbrite.com/e/fremont-coderdojo-march-19-tickets-16179350874?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=16179350874" alt="Eventbrite - Fremont CoderDojo - March 19" /></a>
+#On the agenda for April 2:
+- We are Learning Processing, with [sketchpad.cc](http://sketchpad.cc) and [funprogramming.org](http://funprocessing.org). Processing is a language based on Java, especially great for beginners and working with graphics.
+- We will also learn how to acheive a scrolling background in [Scratch](http://scratch.mit.edu).
 
 ###[Detailed Information >>](/about)
