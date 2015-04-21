@@ -1,4 +1,4 @@
-Coming up May 7:
+Coming up May 7th:
 
 - Learn to make your character jump with realistic gravity in [Scratch](http://scratch.mit.edu)
 
