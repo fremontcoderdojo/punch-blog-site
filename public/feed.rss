@@ -13,13 +13,40 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A proggraming club for young people between age 7 and 17.</description>
-	<lastBuildDate>Sun, 01 Feb 2015 06:30:23 GMT</lastBuildDate>
+	<lastBuildDate>Fri, 08 May 2015 01:00:10 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 
 		<item>
-		<title>Group Challenge - Make a game in Scratch</title>
+		<title>Build a platformer in Scratch</title>
+      <link>http://www.fremontcoderdojo.com/2015/05/07/platformer-in-scratch</link>
+      <comments>http://www.fremontcoderdojo.com/2015/05/07/platformer-in-scratch/#comments</comments>
+      <pubDate>Thu, 07 May 2015 07:00:00 GMT</pubDate>
+      <dc:creator>Tim Inman</dc:creator>
+
+      <category><![CDATA[Scratch Game Challenge]]></category>
+      <category><![CDATA[games]]></category>
+      <category><![CDATA[scratch]]></category>
+      <category><![CDATA[scrolling background]]></category>
+      <category><![CDATA[jumping]]></category>
+      <category><![CDATA[colision detection]]></category>
+      <category><![CDATA[keeping score]]></category>
+
+      <guid isPermaLink="true">http://www.fremontcoderdojo.com/2015/05/07/platformer-in-scratch</guid>
+			<description><![CDATA[<h3 id="an-endless-scrolling-background-">An Endless Scrolling background:</h3>
+<p>In our last session, we created an endless scrolling background by creating a simple painted sprite, splitting it and reversing each vertical half. You can clone that project <a href="https://scratch.mit.edu/projects/55592334/#editor">here:</a></p>
+<h3 id="jumping">Jumping</h3>
+<p>Think about what happens when you jump: first you go up, then you go down. To achieve jumping, we need to create a second script on the player sprite, in our case it&#39;s called Sprite1. First, we create a new variable called <em>y vel</em>, which is short for y velocity, in other words, the speed by which our sprite&#39;s y position will change.  Second we need something to trigger the jump with: I chose the <em>space</em> key. Finally we set the <em>y vel</em> to a positive number and decrease that number incrementally for a limited amount of times. Here&#39;s the script:</p>
+<p><img src="/img/jumping.png"></p>
+<p>And here is what it looks like:</p>
+<p><img src="/img/cat_jump.gif"></p>
+<h3 id="making-it-a-game">Making it a game</h3>
+<p>Next session we will create obstacles, use collision detection to <em>see</em> when the cat hits them and save score to a variable! See you then.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Scratch Game Ideas</title>
       <link>http://www.fremontcoderdojo.com/2015/01/22/scratch-game-ideas</link>
       <comments>http://www.fremontcoderdojo.com/2015/01/22/scratch-game-ideas/#comments</comments>
       <pubDate>Thu, 22 Jan 2015 08:00:00 GMT</pubDate>

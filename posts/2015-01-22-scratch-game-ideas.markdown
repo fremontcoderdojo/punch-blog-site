@@ -1,6 +1,5 @@
 ---
-title: Group Challenge - Make a game in Scratch
-published: true
+title: Scratch Game Ideas
 tags:
 - Scratch Game Challenge
 - games
