@@ -27,6 +27,7 @@ margin-bottom: 0.2em;
 }
 a:visited {color:#ed462f;}
 a:hover {text-decoration: underline;}
+h2 a:hover {color: #ed462f;}
 .entry-title a {
 	color: rgb(50,50,50);
 
