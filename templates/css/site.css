@@ -91,7 +91,8 @@ a {text-decoration: none;
   }
 
 table {
-	margin: 24px 0 24px 0;
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
 td, th{
 	padding: 6px 13px;
@@ -107,16 +108,11 @@ th {
 	color: #ffffff;
 	text-align: center;
 }
-.entry-content p {
-  margin: 0em 0px 0.2em 0em;
-}
+
 
 /* Mobile only CSS */ 
 @media (max-width: 567px) {
 	.container {width: 92%;margin-left:auto; margin-right: auto;}
 	.header-img {height: 300px;}
-	#nav ul li {
-		font-size: 0.9em;
-	}
+	#nav ul li {font-size: 0.9em;}
 }
-
