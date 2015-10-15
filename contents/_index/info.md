@@ -1,12 +1,13 @@
-<h4 class="tagline">Fremont CoderDojo is fun place to learn to code games, websites, and apps for young people between age 7 and 17.
-</h4>
-
+<br>
 ##Ticketing
 A Free Ticket is required for entry. Register on [EventBright](http://fremontcoderdojo.eventbright.com). Each events tickets will be released about 2 weeks prior. We plan to hold most of our events on Thursdays, about twice a month.
 Please use the name of the young person when registering.
 You will need to make separate registrations for each young person attending.
 Those under the age of 13 must be accompanied by a parent or guardian.
 Adults do not need tickets, but must be accompanied by a child.
+
+##Parents
+We need your assistance. CoderDojo is free, but not a free ride. [Sign up for a job](https://docs.google.com/spreadsheets/d/1oWoLxJh5eWAv6sV0FyB71qPaNFFJzZnS82Bc1tuN2Ws/edit?usp=sharing) at the next session: 
 
 ##Laptops
 Bring (or borrow) your own laptop. Please contact us if you are unable to acquire your own laptop.
@@ -26,7 +27,6 @@ Before everything wraps up at 8:30PM, we want to give a few young people the opp
 ##Directions
 <iframe class="pure-img" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3026.48441073113!2d-122.016681!3d37.550722!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDMzJzAyLjYiTiAxMjLCsDAxJzAwLjEiVw!5e1!3m2!1sen!2sus!4v1413423295118" width="600" height="450" frameborder="0" style="border:0"></iframe>
 
-##Parents
-We need your assistance. CoderDojo is free, but not a free ride. Sign up for a job at the next session [here](https://docs.google.com/spreadsheets/d/1oWoLxJh5eWAv6sV0FyB71qPaNFFJzZnS82Bc1tuN2Ws/edit?usp=sharing): 
-
 See you there!
+
+<br>

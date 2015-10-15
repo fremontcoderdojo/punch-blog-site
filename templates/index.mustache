@@ -5,31 +5,38 @@
 </div>
 <div class="grey ">
 	<div class="container">
-		<br >
-		<h1>Tutorials</h1>
-	    <div class="posts">
+	{{{ info }}}
+	</div>
+</div>
 
-				{{#recent_posts}}
-	      <div class="hentry"> 
-	        <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
+<div class="container">
+	<br >
+	<h1 id="tutorial">Tutorials</h1>
+    <div class="posts">
 
-	        <div class="entry-content">
-	          {{{ content }}}
-	        </div>
-					{{#is_teaser}}
-	        <div><a href="{{ permalink }}" class="more">More »</a></div>
-					{{/is_teaser}}
-	      </div>
-				{{/recent_posts}}
+			{{#recent_posts}}
+      <div class="hentry"> 
+        <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
 
-			</div>
-			
-			<div id="browse_archive">
-				<a href="/archive">Browse Archive</a>
-			</div>
-			    <br>
+        <div class="entry-content">
+          {{{ content }}}
+        </div>
+				{{#is_teaser}}
+        <div><a href="{{ permalink }}" class="more">More »</a></div>
+				{{/is_teaser}}
+      </div>
+			{{/recent_posts}}
 
-	    </div>
+		</div>
+		
+		<div id="browse_archive">
+			<a href="/archive">Browse Archive</a>
+		</div>
 
-			{{> footer }}
+    </div>
+
+<div class="container" id="resources">
+	{{{ resources }}}
+	</div>
+{{> footer }}
 
