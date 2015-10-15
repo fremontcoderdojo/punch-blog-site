@@ -114,5 +114,6 @@ th {
 @media (max-width: 567px) {
 	.container {width: 92%;margin-left:auto; margin-right: auto;}
 	.header-img {height: 300px;}
-	/* #nav ul li {font-size: 0.9em;} */
+	#nav ul li {font-size: 0.9em;}
+	td, th {font-size: 10px;}
 }
