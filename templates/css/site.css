@@ -57,7 +57,9 @@ a {text-decoration: none;
 .center {text-align: center;}
 .header {background-color: black;}
 .container {width: 70%;margin-left:auto; margin-right: auto;}
-#nav {text-align: center;}
+#nav {
+	text-align: center;
+}
 #nav ul{
 	list-style-type: none;
 	padding: 0;
@@ -97,6 +99,10 @@ th {
 	background-color: #eee
 }
 
+.footer {
+	color: #ffffff;
+	text-align: center;
+}
 /* Mobile only CSS */ 
 @media (max-width: 567px) {
 	.container {width: 92%;margin-left:auto; margin-right: auto;}
@@ -104,4 +110,8 @@ th {
 }
 .entry-content p {
   margin: 0em 0px 0.2em 0em;
+}
+#nav ul li {
+	font-size: 1.0em;
+
 }
