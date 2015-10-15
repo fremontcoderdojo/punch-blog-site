@@ -1,7 +1,5 @@
 ##Resources We Use
-
 <table id="resources">
-
   <tr>
     <td>[Scratch](http://scratch.mit.edu)</td>
     <td>A visual, block-based programming language for kids</td>
