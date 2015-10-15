@@ -45,7 +45,7 @@ h2 a:hover {color: #ed462f;}
 .yellow {background-color: #fbcc33;}
 .red {background-color: #ed462f;}
 .lt-blue {background-color: #2c9cfb;}
-
+.grey {background-color: #f1f1f1;}
 a {text-decoration: none;
 }
 
@@ -54,8 +54,10 @@ a {text-decoration: none;
 	margin-bottom: 10px;
 
 }
+.center {text-align: center;}
 .header {background-color: black;}
 .container {width: 70%;margin-left:auto; margin-right: auto;}
+#nav {text-align: center;}
 #nav ul{
 	list-style-type: none;
 	padding: 0;
@@ -63,7 +65,7 @@ a {text-decoration: none;
 #nav ul li {
 	display: inline;
 	margin-right: 1em;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -85,7 +87,15 @@ a {text-decoration: none;
 	font-size: 1.2em;
 
   }
+td, th{
+	padding: 6px 13px;
+    border: 1px solid #ddd;
+}
 
+th {
+	font-weight: bold;
+	background-color: #eee
+}
 
 /* Mobile only CSS */ 
 @media (max-width: 567px) {

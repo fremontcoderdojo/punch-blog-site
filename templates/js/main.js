@@ -7,9 +7,10 @@ $(document).ready( function() {
         var st = $(this).scrollTop(); //Determines up-or-down scrolling
         if (st > lastScroll){ //Replace this with your function call for downward-scrolling
             if($(document).scrollTop() > 530 && (downScrollInitiated == false)) {
-                $('#nav').animate({'top': '0px'}, 350)
+                $('#nav').animate({'top': '0px', 'left': '0px'}, 350)
                 $('#nav').css('position', 'fixed')
                 $('#nav').css('width', '100%')
+
                 downScrollInitiated = true;
                 console.log('downscroll');
                 upScrollInitialted = false;
