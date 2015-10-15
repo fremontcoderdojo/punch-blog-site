@@ -14,29 +14,31 @@
 	<h1 id="tutorial">Tutorials</h1>
     <div class="posts">
 
-			{{#recent_posts}}
-      <div class="hentry"> 
-        <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
+		{{#recent_posts}}
+    	<div class="hentry"> 
+        	<h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
 
-        <div class="entry-content">
-          {{{ content }}}
-        </div>
-				{{#is_teaser}}
-        <div><a href="{{ permalink }}" class="more">More »</a></div>
-				{{/is_teaser}}
-      </div>
+        	<div class="entry-content">
+          		{{{ content }}}
+        	</div>
+			{{#is_teaser}}
+        	<div><a href="{{ permalink }}" class="more">More »</a>
+        	</div>
+			{{/is_teaser}}
+      	</div>
 			{{/recent_posts}}
 
-		</div>
+	</div>
 		
-		<div id="browse_archive">
+	<div id="browse_archive">
 			<a href="/archive">Browse Archive</a>
-		</div>
+	</div>
 
-    </div>
 </div>
 
 <div class="container">
+	<div class="pure-g">
 	{{{ resources }}}
+	</div>
 </div>
 {{> footer }}
