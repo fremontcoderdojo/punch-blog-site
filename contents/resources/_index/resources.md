@@ -1,8 +1,3 @@
-<style>
-td {
-padding:10px ;
-}
-</style>
 ##Resources We Use
 
 <table>
@@ -26,4 +21,5 @@ padding:10px ;
     <td>[FunProgramming.org](http://funprogramming.org)</td>
     <td>Large collection of Processing Tutorials</td>
   </tr>
-<table>
+</table>
+<br>

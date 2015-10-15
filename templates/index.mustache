@@ -1,34 +1,35 @@
 {{> header }}
+<div class="container">
 	{{{comingUp}}}
 	<br>
-	</div>
-	<div class="grey ">
-		<div class="container">
-			<br >
-			<h1>Tutorials</h1>
-		    <div class="posts">
+</div>
+<div class="grey ">
+	<div class="container">
+		<br >
+		<h1>Tutorials</h1>
+	    <div class="posts">
 
-					{{#recent_posts}}
-		      <div class="hentry"> 
-		        <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
+				{{#recent_posts}}
+	      <div class="hentry"> 
+	        <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
 
-		        <div class="entry-content">
-		          {{{ content }}}
-		        </div>
-						{{#is_teaser}}
-		        <div><a href="{{ permalink }}" class="more">More »</a></div>
-						{{/is_teaser}}
-		      </div>
-					{{/recent_posts}}
+	        <div class="entry-content">
+	          {{{ content }}}
+	        </div>
+					{{#is_teaser}}
+	        <div><a href="{{ permalink }}" class="more">More »</a></div>
+					{{/is_teaser}}
+	      </div>
+				{{/recent_posts}}
 
-				</div>
-				
-				<div id="browse_archive">
-					<a href="/archive">Browse Archive</a>
-				</div>
-				    <br>
+			</div>
+			
+			<div id="browse_archive">
+				<a href="/archive">Browse Archive</a>
+			</div>
+			    <br>
 
-		    </div>
+	    </div>
 
 			{{> footer }}
 

@@ -1,26 +1,28 @@
-<div id="main-content">
-	<article class="entry"> 
-		<h2 class="entry-title">{{{ title }}}</h2>
-		<div class="entry-content">
-			{{{content}}}
-		</div>
-
-		<aside role="meta">
-			<div role="tags">
-				<span role="icon" aria-hidden="true" class="icon-tag"></span><span>Tags:</span></span>
-				{{#tags}}  
-					<a href="/tag/{{#downcase}}{{.}}{{/downcase}}">{{.}}</a>&nbsp;
-				{{/tags}} 
+<div class="container">
+	<div id="main-content">
+		<article class="entry"> 
+			<h2 class="entry-title">{{{ title }}}</h2>
+			<div class="entry-content">
+				{{{content}}}
 			</div>
 
-			<div role="social_media">
-				{{{tweet_snippet}}}
+			<aside role="meta">
+				<div role="tags">
+					<span role="icon" aria-hidden="true" class="icon-tag"></span><span>Tags:</span></span>
+					{{#tags}}  
+						<a href="/tag/{{#downcase}}{{.}}{{/downcase}}">{{.}}</a>&nbsp;
+					{{/tags}} 
+				</div>
+
+				<div role="social_media">
+					{{{tweet_snippet}}}
+				</div>
+			</aside>
+
+			<div id="disqus_block">
+				{{{disqus_snippet}}}
 			</div>
-		</aside>
 
-		<div id="disqus_block">
-			{{{disqus_snippet}}}
-		</div>
-
-	</article>
+		</article>
+	</div>
 </div>
