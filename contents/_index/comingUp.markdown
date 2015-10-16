@@ -6,7 +6,7 @@
 		<table>
 		  <tr><th>DATE</th><th>TOPIC</th></tr>
 		  <tr><td>[October 15](https://www.eventbrite.com/e/fremont-coderdojo-october-15-tickets-19055583764)</td><td>Background Images with CSS</td></tr>
-		  <tr><td>November 5</td><td>Classes &amp; ID's: when and how to use them.</td></tr>
+		  <tr><td>[November 5](http://www.eventbrite.com/e/fremont-coderdojo-november-5-tickets-19109204144)</td><td>Classes &amp; ID's: when and how to use them.</td></tr>
 		  <tr><td>November 19</td><td>Make Stuff Happen with Javascript</td></tr>
 		  <tr><td>December 3</td><td>TBA</td></tr>
 		  <tr><td>December 17</td><td>TBA</td></tr>
