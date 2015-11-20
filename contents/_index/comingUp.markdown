@@ -5,15 +5,12 @@
 	<div class="pure-u-1 pure-u-md-1-2">
 		<table>
 		  <tr><th>DATE</th><th>TOPIC</th></tr>
-		  <tr><td>[October 15](https://www.eventbrite.com/e/fremont-coderdojo-october-15-tickets-19055583764)</td><td>Background Images with CSS</td></tr>
-		  <tr><td>[November 5](http://www.eventbrite.com/e/fremont-coderdojo-november-5-tickets-19109204144)</td><td>Classes &amp; ID's: when and how to use them.</td></tr>
-		  <tr><td>November 19</td><td>Make Stuff Happen with Javascript</td></tr>
-		  <tr><td>December 3</td><td>TBA</td></tr>
-		  <tr><td>December 17</td><td>TBA</td></tr>
+		  <tr><td>[December 3](https://www.eventbrite.com/e/fremont-coderdojo-december-3-tickets-19650176206)</td><td>Program BB8 from Star Wars</td></tr>
+		  <tr><td>December 19</td><td>TBA.</td></tr>
 		</table>
 	</div>
 	<br>
 	<div class="pure-u-1 pure-u-md-1-2">
-		<img src="/img/html-css.png" class="pure-img">
+		<img src="/img/sw.jpg" class="pure-img">
 	</div>
 </div>
