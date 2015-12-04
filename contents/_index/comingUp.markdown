@@ -6,7 +6,6 @@
 		<table>
 		  <tr><th>DATE</th><th>TOPIC</th></tr>
 		  <tr><td>[December 3](https://www.eventbrite.com/e/fremont-coderdojo-december-3-tickets-19650176206)</td><td>Program BB8 from Star Wars</td></tr>
-		  <tr><td>December 19</td><td>TBA.</td></tr>
 		</table>
 	</div>
 	<br>
