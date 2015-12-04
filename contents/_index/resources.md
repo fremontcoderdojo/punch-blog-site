@@ -21,7 +21,7 @@
     <td>Large collection of Processing Tutorials</td>
   </tr>
   <tr>
-    <td>[Neocities.org](http://neocites.org)</td>
+    <td>[Neocities.org](https://neocites.org/)</td>
     <td>Free Web Hosting with a built-in text editor</td>
   </tr>
 </table>
