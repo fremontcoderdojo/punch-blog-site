@@ -10,6 +10,6 @@
 	</div>
 	<br>
 	<div class="pure-u-1 pure-u-md-1-2">
-		<img src="/img/sw.jpg" class="pure-img">
+		<img src="/img/code.jpg" class="pure-img">
 	</div>
 </div>
