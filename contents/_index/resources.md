@@ -24,5 +24,13 @@
     <td>[Neocities.org](https://neocities.org/)</td>
     <td>Free Web Hosting with a built-in text editor</td>
   </tr>
+  <tr>
+    <td>[Html Cheat Sheet Reference](/img/html.pdf)</td>
+    <td>Look up different types of elements to stucture your web-page.</td>
+  </tr>
+  <tr>
+    <td>[CSS Cheat Sheet Reference](/img/css.pdf)</td>
+    <td>CSS selectors and properties to style your web-page.</td>
+  </tr>
 </table>
 <br>
