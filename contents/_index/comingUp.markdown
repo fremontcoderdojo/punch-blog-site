@@ -5,7 +5,8 @@
 	<div class="pure-u-1 pure-u-md-1-2">
 		<table>
 		  <tr><th>DATE</th><th>TOPIC</th></tr>
-		  <tr><td>[January 7](https://www.eventbrite.com/e/fremont-coderdojo-january-7-tickets-20066930730)</td><td>JavaScript and Scratch</td></tr>
+		  <tr><td>[January 7](https://www.eventbrite.com/e/fremont-coderdojo-january-7-tickets-20066930730)</td><td>[JavaScript & HTML](http://codepen.io/thehack/pen/OMmJed/) [Download PDF](/img/html5.pdf) and [Scratch](http://scratch.mit.edu)</td></tr>
+		  <tr><td>January 21</td><td>Debugging with Chrome and [More Scratch!](http://scratch.mit.edu)</td></tr>
 		</table>
 	</div>
 	<br>

@@ -1,0 +1,23 @@
+---
+title: HTML5 Game Tutorial
+published: true
+tags:
+- HTML5
+- JavaScript
+- running
+- track and field
+---
+
+
+### Setting up the environment:
+
+* Here is the code on [Codepen](http://codepen.io/thehack/pen/OMmJed/)
+* Here is the [PDF](/img/html5.pdf)
+
+###NOTE: Code Change! 
+
+I've changed:
+<pre>setInterval setTimeout and clearInterval</pre> to:
+<pre>window.setInterval, window.setTimeout, and window.clearInterval</pre>
+
+I'm hoping that it fixes some issues a user was having with Internet Explorer. If you are using Internet Explorer, [I'd love to hear](mailto:fremont.us@coderdojo.com) your results.

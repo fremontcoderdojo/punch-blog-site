@@ -1,4 +1,7 @@
 <br>
+##Contact
+Questions? Feel free to [email us](mailto:fremont.us@coderdojo.com)
+
 ##Ticketing
 A Free Ticket is required for entry. Register on [EventBright](http://fremontcoderdojo.eventbright.com). Each events tickets will be released about 2 weeks prior. We plan to hold most of our events on Thursdays, about twice a month.
 Please use the name of the young person when registering.
