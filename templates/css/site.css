@@ -117,3 +117,5 @@ th {
 	#nav ul li {font-size: 0.9em;}
 	td, th {font-size: 10px;}
 }
+.right {margin-right: 10px;}
+.bigger {font-size: 130%;}
