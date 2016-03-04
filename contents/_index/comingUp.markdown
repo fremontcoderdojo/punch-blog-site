@@ -6,6 +6,8 @@
 
 <p class="bigger right">This season we are learning skills in Scratch, HTML, CSS, & JavaScript. No experience necessary. Come to get inspired and share your creativity with others.</p>
 
+<p><a href="https://scratch.mit.edu/projects/85974074/?tip_bar=hoops#editor">March 3: Basketball Game in Scratch</a>
+
 <a href="http://www.eventbrite.com/e/fremont-coderdojo-tickets-22064540635?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=22064540635" alt="Eventbrite - Fremont CoderDojo" /></a> 
 <br>
 <br>
