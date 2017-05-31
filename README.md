@@ -21,7 +21,7 @@
 #####3. Make proposed edits.
 #####4. Push changes to your fork
     
-    git push origin master
+    git push live
 #####5. On github, use the pull request feature to compare your fork with the official repo and make a pull request.
 
 
