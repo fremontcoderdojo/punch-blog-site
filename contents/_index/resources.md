@@ -1,4 +1,4 @@
-##Resources We Use
+## Resources We Use
 <table id="resources">
   <tr>
     <td>[Scratch](http://scratch.mit.edu)</td>
