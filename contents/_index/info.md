@@ -1,5 +1,3 @@
-<p></p>
-
 ## Contact
 Questions? Feel free to [email us](mailto:fremont.us@coderdojo.com)
 
