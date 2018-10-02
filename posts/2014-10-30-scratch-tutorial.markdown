@@ -10,7 +10,7 @@ tags:
 
 <img class="pure-img" src="/img/cat_moves11.png">
 
-###Start with a new sprite
+### Start with a new sprite
 First. Create a new progect on [the scratch website](http://scratch.mit.edu/projects/editor/). You might want to drag out this tutoral page and tile it alongside the scratch page so you can use both without lots of switching back and forth. It might look like this:
 
 <img class="pure-img" src="/img/cat_moves12.png">
@@ -19,7 +19,7 @@ Right-click or control-click 'Sprite1' from the 'Sprites' window. Select 'Delete
 
 Click the icon for 'Choose new sprite from library'. <img class="pure-img" src="/img/cat_moves2.png"> Choose 'Cat2'.
 
-###Setting up defaults and the game loop
+### Setting up defaults and the game loop
 Select 'Events' under the 'Scripts' tab. Drag 'when flag clicked' into the script area.
 
 Select 'Motion'. Drag and attatch 'go to x:0 y:0'. Make sure 'x' is set to '0' and 'y' is set to '0'.
@@ -28,7 +28,7 @@ Select 'Control'. Drag and attatch the 'forever' block. This will be our game lo
 
 <img class="pure-img" src="/img/cat_moves1.png">
 
-###Controlling the cat sprite
+### Controlling the cat sprite
 Select 'Events'. Drag the 'when' space key pressed' onto our script window. Do this three more times. In each of those blocks, select the small black triangle and change 'space' to 'up arrow', 'right arrow', 'down arrow', and 'left arrow', so that it matches the image below.
 
 <img class="pure-img" src="/img/cat_moves3.png">
@@ -47,7 +47,7 @@ Drag and attach a 'move 10 steps' block to each of the four keypress scripts you
 
 Click the flag and press your arrow keys. The cat should move across the stage!
 
-###Add a mouse for your cat to catch
+### Add a mouse for your cat to catch
 Select the new sprite icon. <img src="/img/cat_moves2.png">
 
 Choose 'Mouse1'. Move it away from the cat on the stage.

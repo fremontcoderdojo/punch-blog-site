@@ -12,17 +12,17 @@ tags:
 2. You will learn how functions help you not to repeat yourself.
 2. You will learn how objects can store and organize lots of different data, like the data in game levels.
 
-###First some HTML
+### First some HTML
 <script src="https://gist.github.com/anonymous/db710fc6988b95537707.js"></script>
 
 You can easily select, copy, and paste the above html code into the html window on a [new project](http://codepen.io/pen/) on codepen.
 
-###Now the CSS
+### Now the CSS
 <script src="https://gist.github.com/anonymous/d68cd85821b4a15745e9.js"></script>
 
 The code above adds a bit of style to our game. It makes the pictures a consistent size, the text readable, and everything line-up right. Copy and paste it into the CSS window on your codepen project.
 
-###Finally the Javascript
+### Finally the Javascript
 Javascript is what makes the web interactive. We use it to put away some images and add others. It updates the text when you make a decision with a button. You might remember that variable are just containers to store information. In javscript, when you are setting a variable to remember some information for you, you use the keyword 'var'. To get started, copy and paste these variables into the 'JS' window of your project:
 
 <script src="https://gist.github.com/anonymous/ee2d6961623662909039.js"></script>

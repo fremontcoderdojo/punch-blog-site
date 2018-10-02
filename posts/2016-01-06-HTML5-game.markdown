@@ -14,7 +14,7 @@ tags:
 * Here is the code on [Codepen](http://codepen.io/thehack/pen/OMmJed/)
 * Here is the [PDF](/img/html5.pdf)
 
-###NOTE: Code Change! 
+### NOTE: Code Change! 
 
 I've changed:
 <pre>setInterval setTimeout and clearInterval</pre> to:
