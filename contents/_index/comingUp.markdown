@@ -3,7 +3,7 @@
 
 <p id="info">For the Fall/Winter Season, we will focus on learning to program the Web with HTML, CSS, & JavaScript!</p>
 
-<h2>Fremont CoderDojo will not be meeting in September, 2019.</h2>
+<h2>Fremont CoderDojo will not be meeting in September, 2019. Tickets are Availble for Oct 3 - Dec 5</h2>
 
 
 <center><div id="eventbrite-widget-container-71441807369"></div></center>
