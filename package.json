@@ -11,6 +11,6 @@
 				"punch-current-page-helper": ">= 0.0.1",
 				"punch-thirdparty-snippets-helper": ">= 0.0.1",
 				"punch-sitemap-generator": ">= 0.0.5",
-				"underscore": ">= 1.4.2"
+				"underscore": ">= 1.12.1"
 		}
 }
